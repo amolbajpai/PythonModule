@@ -13,3 +13,4 @@ def find_latest_trip_advance_booking_report():
 
 
     report_list=[]
+    for i in os.listdir('/home/amol/Downloads/'):
