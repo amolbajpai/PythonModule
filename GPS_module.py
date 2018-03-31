@@ -16,3 +16,5 @@ def find_latest_trip_advance_booking_report():
     for i in os.listdir('/home/amol/Downloads/'):
         if "TripAdvanceBookingReport_Ver1" in i:
             report_list.append(i)
+
+    newdict={}
