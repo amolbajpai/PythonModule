@@ -18,3 +18,4 @@ def find_latest_trip_advance_booking_report():
             report_list.append(i)
 
     newdict={}
+    for i in report_list:
