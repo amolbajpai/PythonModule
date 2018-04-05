@@ -20,3 +20,4 @@ def find_latest_trip_advance_booking_report():
     newdict={}
     for i in report_list:
         if i=='TripAdvanceBookingReport_Ver1.xlsx':
+            newdict.update({0:i})
