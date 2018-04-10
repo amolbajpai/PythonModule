@@ -22,3 +22,4 @@ def find_latest_trip_advance_booking_report():
         if i=='TripAdvanceBookingReport_Ver1.xlsx':
             newdict.update({0:i})
         else:
+            if i[31:32].isdigit():
