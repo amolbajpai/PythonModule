@@ -26,3 +26,4 @@ def find_latest_trip_advance_booking_report():
                 number=int(i[31:32])
 
             if i[31:33].isdigit():
+                number=int(i[31:33])
