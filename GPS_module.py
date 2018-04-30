@@ -30,3 +30,5 @@ def find_latest_trip_advance_booking_report():
 
             if i[31:34].isdigit():
                 number=int(i[31:34])
+
+            newdict.update({number:i})
