@@ -37,3 +37,5 @@ def find_latest_trip_advance_booking_report():
 
     print("I am using {} for report creation".format(updated_excel_file))
     return '/home/amol/Downloads/'+updated_excel_file
+
+def find_latest_current_status_report():
