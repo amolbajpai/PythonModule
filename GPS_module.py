@@ -44,3 +44,4 @@ def find_latest_current_status_report():
     import ayansh as gps
     import shutil
     from datetime import datetime
+    path= '/home/amol/Downloads/'
