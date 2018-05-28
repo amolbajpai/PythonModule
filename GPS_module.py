@@ -45,3 +45,4 @@ def find_latest_current_status_report():
     import shutil
     from datetime import datetime
     path= '/home/amol/Downloads/'
+    new_path = '/home/amol/Reports/Current Status Report/'
