@@ -46,3 +46,4 @@ def find_latest_current_status_report():
     from datetime import datetime
     path= '/home/amol/Downloads/'
     new_path = '/home/amol/Reports/Current Status Report/'
+    all_csr_files = gps.getListOfFiles(new_path)
