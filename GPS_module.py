@@ -49,3 +49,5 @@ def find_latest_current_status_report():
     all_csr_files = gps.getListOfFiles(new_path)
 
     all_files=os.listdir(path)
+
+    csr_files=[]
