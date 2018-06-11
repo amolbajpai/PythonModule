@@ -51,3 +51,5 @@ def find_latest_current_status_report():
     all_files=os.listdir(path)
 
     csr_files=[]
+
+    for i in all_files:
