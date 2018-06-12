@@ -53,3 +53,4 @@ def find_latest_current_status_report():
     csr_files=[]
 
     for i in all_files:
+        try:
