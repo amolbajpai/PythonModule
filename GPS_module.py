@@ -54,3 +54,4 @@ def find_latest_current_status_report():
 
     for i in all_files:
         try:
+            if i.startswith('Current_Status_Report'):
