@@ -56,3 +56,4 @@ def find_latest_current_status_report():
         try:
             if i.startswith('Current_Status_Report'):
                 csr_files.append(i)
+        except:
