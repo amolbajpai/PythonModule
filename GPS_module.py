@@ -59,3 +59,4 @@ def find_latest_current_status_report():
         except:
             pass
       
+    for i in csr_files:
