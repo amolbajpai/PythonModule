@@ -60,3 +60,4 @@ def find_latest_current_status_report():
             pass
       
     for i in csr_files:
+        df = pd.read_excel(path+i,sheet_name='REPORT INFO')
