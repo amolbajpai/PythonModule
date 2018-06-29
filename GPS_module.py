@@ -61,3 +61,4 @@ def find_latest_current_status_report():
       
     for i in csr_files:
         df = pd.read_excel(path+i,sheet_name='REPORT INFO')
+        file_date = df.iloc[6,1]
