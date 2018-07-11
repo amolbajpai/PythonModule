@@ -67,3 +67,4 @@ def find_latest_current_status_report():
         os.rename(path+i,new_path+"Current_Status_Report "+file_date+".xls")
         #shutil.move(path+file_name,new_path+file_name.split('/')[-1]) Ex.
         print('For loop ran.....')
+        
