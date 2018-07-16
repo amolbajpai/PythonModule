@@ -69,3 +69,5 @@ def find_latest_current_status_report():
         print('For loop ran.....')
         
     print("Renaming done ........")
+
+    print("No of files befor moving = ",len(all_csr_files))
