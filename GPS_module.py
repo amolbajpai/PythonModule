@@ -74,3 +74,4 @@ def find_latest_current_status_report():
     all_csr_files = gps.getListOfFiles(new_path)
     print("No of files after moving = ",len(all_csr_files))
     all_csr_files.sort()
+    print("Hi Amol I have selected {} as a latest updated Current Status Report".format(all_csr_files[-1]))
