@@ -75,3 +75,4 @@ def find_latest_current_status_report():
     print("No of files after moving = ",len(all_csr_files))
     all_csr_files.sort()
     print("Hi Amol I have selected {} as a latest updated Current Status Report".format(all_csr_files[-1]))
+    return all_csr_files[-1]
