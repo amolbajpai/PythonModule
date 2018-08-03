@@ -76,3 +76,7 @@ def find_latest_current_status_report():
     all_csr_files.sort()
     print("Hi Amol I have selected {} as a latest updated Current Status Report".format(all_csr_files[-1]))
     return all_csr_files[-1]
+
+
+
+def find_latest_current_status_report_old():
