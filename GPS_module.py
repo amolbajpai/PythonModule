@@ -81,3 +81,5 @@ def find_latest_current_status_report():
 
 def find_latest_current_status_report_old():
     import os
+
+    report_list=[]
