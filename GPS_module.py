@@ -84,3 +84,4 @@ def find_latest_current_status_report_old():
 
     report_list=[]
     for i in os.listdir('/home/amol/Downloads/'):
+        if "Current_Status_Report" in i:
