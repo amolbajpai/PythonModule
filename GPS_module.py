@@ -86,3 +86,5 @@ def find_latest_current_status_report_old():
     for i in os.listdir('/home/amol/Downloads/'):
         if "Current_Status_Report" in i:
             report_list.append(i)
+
+    newdict={}
