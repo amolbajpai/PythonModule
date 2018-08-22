@@ -88,3 +88,4 @@ def find_latest_current_status_report_old():
             report_list.append(i)
 
     newdict={}
+    for i in report_list:
