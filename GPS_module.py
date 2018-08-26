@@ -90,3 +90,4 @@ def find_latest_current_status_report_old():
     newdict={}
     for i in report_list:
         if i=='Current_Status_Report.xls':
+            newdict.update({0:i})
