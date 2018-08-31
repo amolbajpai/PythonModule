@@ -92,3 +92,4 @@ def find_latest_current_status_report_old():
         if i=='Current_Status_Report.xls':
             newdict.update({0:i})
         else:
+            if i[23:24].isdigit():
