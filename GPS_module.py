@@ -93,3 +93,4 @@ def find_latest_current_status_report_old():
             newdict.update({0:i})
         else:
             if i[23:24].isdigit():
+                number=int(i[23:24])
