@@ -97,3 +97,5 @@ def find_latest_current_status_report_old():
 
             if i[23:25].isdigit():
                 number=int(i[23:25])
+
+            if i[23:26].isdigit():
