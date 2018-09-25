@@ -102,3 +102,6 @@ def find_latest_current_status_report_old():
                 number=int(i[23:26])
 
             newdict.update({number:i})
+
+
+    updated_current_status_report=newdict[max(newdict.keys())]
