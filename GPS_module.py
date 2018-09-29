@@ -105,3 +105,5 @@ def find_latest_current_status_report_old():
 
 
     updated_current_status_report=newdict[max(newdict.keys())]
+
+    print('Hi Amol, I have selected "{}" file as a latest updated file '.format(updated_current_status_report))
