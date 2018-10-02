@@ -108,3 +108,5 @@ def find_latest_current_status_report_old():
 
     print('Hi Amol, I have selected "{}" file as a latest updated file '.format(updated_current_status_report))
     return os.path.join('/home/amol/Downloads/',updated_current_status_report)
+
+def find_latest_real_time_report():
