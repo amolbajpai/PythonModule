@@ -111,3 +111,5 @@ def find_latest_current_status_report_old():
 
 def find_latest_real_time_report():
     import os
+
+    report_list=[]
