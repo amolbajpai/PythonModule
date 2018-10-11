@@ -114,3 +114,4 @@ def find_latest_real_time_report():
 
     report_list=[]
     for i in os.listdir('/home/amol/Downloads/'):
+        if "Real_Time_Report" in i:
