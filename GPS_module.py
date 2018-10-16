@@ -116,3 +116,5 @@ def find_latest_real_time_report():
     for i in os.listdir('/home/amol/Downloads/'):
         if "Real_Time_Report" in i:
             report_list.append(i)
+
+    newdict={}
