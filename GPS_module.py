@@ -119,3 +119,4 @@ def find_latest_real_time_report():
 
     newdict={}
     for i in report_list:
+        if i=='Real_Time_Report.xls':
