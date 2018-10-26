@@ -122,3 +122,4 @@ def find_latest_real_time_report():
         if i=='Real_Time_Report.xls':
             newdict.update({0:i})
         else:
+            if i[18:19].isdigit():
