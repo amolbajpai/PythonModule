@@ -129,3 +129,4 @@ def find_latest_real_time_report():
                 number=int(i[18:20])
 
             if i[18:21].isdigit():
+                number=int(i[18:21])
