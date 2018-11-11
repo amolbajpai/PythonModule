@@ -131,3 +131,4 @@ def find_latest_real_time_report():
             if i[18:21].isdigit():
                 number=int(i[18:21])
             try:
+                newdict.update({number:i})
