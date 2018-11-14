@@ -132,3 +132,4 @@ def find_latest_real_time_report():
                 number=int(i[18:21])
             try:
                 newdict.update({number:i})
+            except:
