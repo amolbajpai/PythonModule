@@ -133,3 +133,4 @@ def find_latest_real_time_report():
             try:
                 newdict.update({number:i})
             except:
+                pass
