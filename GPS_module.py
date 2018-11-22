@@ -134,3 +134,6 @@ def find_latest_real_time_report():
                 newdict.update({number:i})
             except:
                 pass
+
+
+    updated_real_time_report=newdict[max(newdict.keys())]
