@@ -140,3 +140,5 @@ def find_latest_real_time_report():
 
     print('Hi Amol, I have selected "{}" file as a latest updated file '.format(updated_real_time_report))
     return os.path.join('/home/amol/Downloads/',updated_real_time_report)
+
+def df_to_excel(template,worksheet,row,col,df,output):
