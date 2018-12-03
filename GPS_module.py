@@ -143,3 +143,4 @@ def find_latest_real_time_report():
 
 def df_to_excel(template,worksheet,row,col,df,output):
     from openpyxl import load_workbook
+    r=row
