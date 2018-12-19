@@ -150,3 +150,5 @@ def df_to_excel(template,worksheet,row,col,df,output):
     print("File opened ")
 
     sheet = wb[worksheet]
+
+    for i in df.index:
