@@ -153,3 +153,4 @@ def df_to_excel(template,worksheet,row,col,df,output):
 
     for i in df.index:
         c=col
+        for j in df.loc[i]:
