@@ -159,3 +159,5 @@ def df_to_excel(template,worksheet,row,col,df,output):
         r+=1
     wb.save(output)
     print("Finised..............")
+
+def GPS_Email_Report():
