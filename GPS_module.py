@@ -167,3 +167,4 @@ def GPS_Email_Report():
     os.chdir('/home/amol/Downloads')
 
     file_name=list(os.listdir())
+    report_list=[]
