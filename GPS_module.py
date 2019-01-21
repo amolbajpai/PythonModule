@@ -169,3 +169,4 @@ def GPS_Email_Report():
     file_name=list(os.listdir())
     report_list=[]
     for i in os.listdir():
+        if "Current_Status_Report" in i:
