@@ -170,3 +170,4 @@ def GPS_Email_Report():
     report_list=[]
     for i in os.listdir():
         if "Current_Status_Report" in i:
+            report_list.append(i)
