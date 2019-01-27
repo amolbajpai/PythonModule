@@ -173,3 +173,4 @@ def GPS_Email_Report():
             report_list.append(i)
 
     newdict={}
+    for i in report_list:
