@@ -174,3 +174,4 @@ def GPS_Email_Report():
 
     newdict={}
     for i in report_list:
+        if i=='Current_Status_Report.xls':
