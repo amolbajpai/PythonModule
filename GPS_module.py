@@ -177,3 +177,4 @@ def GPS_Email_Report():
         if i=='Current_Status_Report.xls':
             newdict.update({0:i})
         else:
+            if i[23:24].isdigit():
