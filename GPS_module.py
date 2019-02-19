@@ -184,3 +184,4 @@ def GPS_Email_Report():
                 number=int(i[23:25])
 
             if i[23:26].isdigit():
+                number=int(i[23:26])
