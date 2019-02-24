@@ -185,3 +185,5 @@ def GPS_Email_Report():
 
             if i[23:26].isdigit():
                 number=int(i[23:26])
+
+            newdict.update({number:i})
