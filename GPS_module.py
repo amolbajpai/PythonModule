@@ -187,3 +187,7 @@ def GPS_Email_Report():
                 number=int(i[23:26])
 
             newdict.update({number:i})
+
+
+
+    updated_current_status_report=newdict[max(newdict.keys())]
