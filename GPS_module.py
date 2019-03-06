@@ -191,3 +191,5 @@ def GPS_Email_Report():
 
 
     updated_current_status_report=newdict[max(newdict.keys())]
+
+    print('Hi Amol, I am using "{}" file for creating report'.format(updated_current_status_report))
