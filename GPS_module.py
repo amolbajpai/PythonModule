@@ -205,3 +205,4 @@ def GPS_Email_Report():
     from openpyxl import load_workbook
 
     gps = load_workbook('/home/amol/Documents/Excel Files/Email GPS Ver 5.xlsx')
+    gps_ws=gps['Current Status Report']
