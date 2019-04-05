@@ -206,3 +206,4 @@ def GPS_Email_Report():
 
     gps = load_workbook('/home/amol/Documents/Excel Files/Email GPS Ver 5.xlsx')
     gps_ws=gps['Current Status Report']
+    novire = load_workbook("/home/amol/Downloads/temp.xlsx")
