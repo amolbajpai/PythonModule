@@ -210,3 +210,6 @@ def GPS_Email_Report():
     novire_ws=novire['Sheet1']
     #vhiof = load_workbook('/home/amol/Desktop/VHIOF/vehicle hold in other fleet.xlsx')
     #vhiof_ws=vhiof.active
+
+
+    gps_ws.delete_cols(1,20) # to delete previous data of the first 1 to 20 columns
