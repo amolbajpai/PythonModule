@@ -217,3 +217,5 @@ def GPS_Email_Report():
     for i in range(1,novire_ws.max_row+1): # novire_ws.max_column+1
         for j in range(1,novire_ws.max_column+1):
             gps_ws.cell(row=i,column=j).value=novire_ws.cell(row=i,column=j).value
+
+    #gps_ws_pastereport=gps['PasteReport']
