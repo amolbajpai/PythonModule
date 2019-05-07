@@ -222,3 +222,4 @@ def GPS_Email_Report():
 
     #for i in range(1,vhiof_ws.max_row+1): # novire_ws.max_column+1
     #    for j in range(1,vhiof_ws.max_column+1):
+    #        gps_ws_pastereport.cell(row=i,column=j).value=vhiof_ws.cell(row=i,column=j).value
