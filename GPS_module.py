@@ -226,3 +226,5 @@ def GPS_Email_Report():
 
 
     import datetime
+
+    date=datetime.datetime.now()
