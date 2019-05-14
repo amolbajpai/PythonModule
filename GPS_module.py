@@ -229,3 +229,4 @@ def GPS_Email_Report():
 
     date=datetime.datetime.now()
     date=date.strftime(" %d %b %Y %X")
+    date=str(date)
