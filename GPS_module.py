@@ -230,3 +230,5 @@ def GPS_Email_Report():
     date=datetime.datetime.now()
     date=date.strftime(" %d %b %Y %X")
     date=str(date)
+
+    file_name="/home/amol/Desktop/GPS Email"+date+".xlsx"
