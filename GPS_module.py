@@ -232,3 +232,5 @@ def GPS_Email_Report():
     date=str(date)
 
     file_name="/home/amol/Desktop/GPS Email"+date+".xlsx"
+
+    gps.save(file_name)
