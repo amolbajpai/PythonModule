@@ -234,3 +234,5 @@ def GPS_Email_Report():
     file_name="/home/amol/Desktop/GPS Email"+date+".xlsx"
 
     gps.save(file_name)
+
+    print('Your report has been created successfully\nOutput file is located on Desktop, file name is "{}"\nFull path is {}'.format(file_name.split("/")[-1],file_name))
