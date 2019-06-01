@@ -241,3 +241,4 @@ def find_latest_vsr():
     all_vsr_files = getListOfFiles(vsr_path)
     all_vsr_files.sort()
     print("Hi Amol, I am using ",all_vsr_files[-1])
+    return all_vsr_files[-1]
