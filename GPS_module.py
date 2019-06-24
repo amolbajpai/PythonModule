@@ -249,3 +249,5 @@ def find_changes_in_controling_branch():
     import numpy as np
     from datetime import timedelta
     import subprocess
+
+    path_last_vsr = gps.find_latest_vsr()
