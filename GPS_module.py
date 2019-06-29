@@ -251,3 +251,5 @@ def find_changes_in_controling_branch():
     import subprocess
 
     path_last_vsr = gps.find_latest_vsr()
+
+    Updated_Current_Status_Report=gps.find_latest_current_status_report()
