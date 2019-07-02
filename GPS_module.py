@@ -255,3 +255,4 @@ def find_changes_in_controling_branch():
     Updated_Current_Status_Report=gps.find_latest_current_status_report()
     Basic_Info_from_CSR = pd.read_excel(Updated_Current_Status_Report,sheet_name="Current Status Report",usecols=('Vehicle','Date/Time','Location','Speed'))
     Basic_Info_from_CSR = pd.read_excel(Updated_Current_Status_Report,sheet_name="Current Status Report",usecols=('Vehicle','Controlling Branch'))
+    Basic_Info_from_CSR.rename(columns= {'Controlling Branch' : 'On Novire'},inplace=True)
