@@ -256,3 +256,5 @@ def find_changes_in_controling_branch():
     Basic_Info_from_CSR = pd.read_excel(Updated_Current_Status_Report,sheet_name="Current Status Report",usecols=('Vehicle','Date/Time','Location','Speed'))
     Basic_Info_from_CSR = pd.read_excel(Updated_Current_Status_Report,sheet_name="Current Status Report",usecols=('Vehicle','Controlling Branch'))
     Basic_Info_from_CSR.rename(columns= {'Controlling Branch' : 'On Novire'},inplace=True)
+
+    vsr= pd.read_excel(path_last_vsr,sheet_name="Vehicle_Status_Register_Quick",usecols=('Vehicle No','Vehicle control Location'))
