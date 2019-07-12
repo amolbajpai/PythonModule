@@ -259,3 +259,4 @@ def find_changes_in_controling_branch():
 
     vsr= pd.read_excel(path_last_vsr,sheet_name="Vehicle_Status_Register_Quick",usecols=('Vehicle No','Vehicle control Location'))
     vsr.rename(columns={'Vehicle No' :'Vehicle', 'Vehicle control Location' : 'in Varuna' },inplace=True)
+    vsr=vsr[['Vehicle','in Varuna']]
