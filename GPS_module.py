@@ -261,3 +261,4 @@ def find_changes_in_controling_branch():
     vsr.rename(columns={'Vehicle No' :'Vehicle', 'Vehicle control Location' : 'in Varuna' },inplace=True)
     vsr=vsr[['Vehicle','in Varuna']]
     final = Basic_Info_from_CSR.merge(vsr,on='Vehicle')
+    filt = final['On Novire'] == final['in Varuna']
