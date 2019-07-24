@@ -264,3 +264,4 @@ def find_changes_in_controling_branch():
     filt = final['On Novire'] == final['in Varuna']
     mismatched = final[-filt]
     mismatched.rename(columns={'On Novire': 'Old Controlling Branch', 'in Varuna' : 'Current Controlling Branch'},inplace=True)
+    mismatched['SrNo']= range(1,mismatched['Vehicle'].count()+1,1)
