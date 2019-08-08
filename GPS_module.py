@@ -270,3 +270,5 @@ def find_changes_in_controling_branch():
     subprocess.call(["et",'/home/amol/Desktop/Update Controlling Branch.xlsx'],shell=False)
     print("I used ",path_last_vsr)
     print("End ..........")
+
+def TakeCommand():
