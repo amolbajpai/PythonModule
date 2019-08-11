@@ -272,3 +272,4 @@ def find_changes_in_controling_branch():
     print("End ..........")
 
 def TakeCommand():
+    import speech_recognition as sr
