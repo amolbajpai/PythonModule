@@ -273,3 +273,4 @@ def find_changes_in_controling_branch():
 
 def TakeCommand():
     import speech_recognition as sr
+    r = sr.Recognizer()
