@@ -276,3 +276,4 @@ def TakeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print('Say something')
+        audio = r.listen(source,timeout=1,phrase_time_limit=5)
