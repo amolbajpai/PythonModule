@@ -277,3 +277,5 @@ def TakeCommand():
     with sr.Microphone() as source:
         print('Say something')
         audio = r.listen(source,timeout=1,phrase_time_limit=5)
+
+    #use Google's speech recognation
