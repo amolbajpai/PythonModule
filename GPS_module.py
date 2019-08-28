@@ -279,3 +279,4 @@ def TakeCommand():
         audio = r.listen(source,timeout=1,phrase_time_limit=5)
 
     #use Google's speech recognation
+    data = ''
