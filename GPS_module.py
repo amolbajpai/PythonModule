@@ -280,3 +280,4 @@ def TakeCommand():
 
     #use Google's speech recognation
     data = ''
+    try:
