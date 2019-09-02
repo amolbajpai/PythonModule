@@ -281,3 +281,4 @@ def TakeCommand():
     #use Google's speech recognation
     data = ''
     try:
+        data = r.recognize_google(audio)
