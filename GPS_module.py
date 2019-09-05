@@ -282,3 +282,4 @@ def TakeCommand():
     data = ''
     try:
         data = r.recognize_google(audio)
+        print('You said: '+ data)
