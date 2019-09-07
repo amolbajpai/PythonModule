@@ -283,3 +283,4 @@ def TakeCommand():
     try:
         data = r.recognize_google(audio)
         print('You said: '+ data)
+    except sr.UnkonwnValueError:
