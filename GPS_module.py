@@ -285,3 +285,4 @@ def TakeCommand():
         print('You said: '+ data)
     except sr.UnkonwnValueError:
         print('Google Speech Recognition could not understand that audio, unknown error')
+    except sr.RequestError as e:
