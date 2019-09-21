@@ -288,3 +288,5 @@ def TakeCommand():
     except sr.RequestError as e:
         print('Request restults from Google Speech Recognitoin service error')
     return data
+
+def getListOfFiles(dirName):
