@@ -291,3 +291,4 @@ def TakeCommand():
 
 def getListOfFiles(dirName):
     # create a list of file and sub directories
+    # names in the given directory
