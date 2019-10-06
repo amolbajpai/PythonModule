@@ -295,3 +295,4 @@ def getListOfFiles(dirName):
     listOfFile = os.listdir(dirName)
     allFiles = list()
     # Iterate over all the entries
+    for entry in listOfFile:
