@@ -296,3 +296,4 @@ def getListOfFiles(dirName):
     allFiles = list()
     # Iterate over all the entries
     for entry in listOfFile:
+        # Create full path
