@@ -297,3 +297,4 @@ def getListOfFiles(dirName):
     # Iterate over all the entries
     for entry in listOfFile:
         # Create full path
+        fullPath = os.path.join(dirName, entry)
