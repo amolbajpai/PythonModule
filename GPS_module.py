@@ -298,3 +298,4 @@ def getListOfFiles(dirName):
     for entry in listOfFile:
         # Create full path
         fullPath = os.path.join(dirName, entry)
+        # If entry is a directory then get the list of files in this directory
