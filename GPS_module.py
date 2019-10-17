@@ -300,3 +300,4 @@ def getListOfFiles(dirName):
         fullPath = os.path.join(dirName, entry)
         # If entry is a directory then get the list of files in this directory
         if os.path.isdir(fullPath):
+            allFiles = allFiles + getListOfFiles(fullPath)
