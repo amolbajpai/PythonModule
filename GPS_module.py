@@ -303,3 +303,5 @@ def getListOfFiles(dirName):
             allFiles = allFiles + getListOfFiles(fullPath)
         else:
             allFiles.append(fullPath)
+
+    return allFiles
