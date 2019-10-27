@@ -305,3 +305,5 @@ def getListOfFiles(dirName):
             allFiles.append(fullPath)
 
     return allFiles
+
+def update_driver_details_db():
