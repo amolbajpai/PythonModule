@@ -309,3 +309,5 @@ def getListOfFiles(dirName):
 def update_driver_details_db():
     import ayansh as gps
     import pandas as pd
+
+    updated_file = gps.find_latest_trip_advance_booking_report()
