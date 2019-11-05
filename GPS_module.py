@@ -311,3 +311,4 @@ def update_driver_details_db():
     import pandas as pd
 
     updated_file = gps.find_latest_trip_advance_booking_report()
+    df=pd.read_excel(updated_file,usecols=["Vehicle No","Manual Driver code","Driver Mobile","Mobile No","Driver Name","Branch","Zone","Request By Mobile","From City","To City","Dated"],header=2)
