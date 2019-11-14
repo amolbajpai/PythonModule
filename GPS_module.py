@@ -314,3 +314,4 @@ def update_driver_details_db():
     df=pd.read_excel(updated_file,usecols=["Vehicle No","Manual Driver code","Driver Mobile","Mobile No","Driver Name","Branch","Zone","Request By Mobile","From City","To City","Dated"],header=2)
 
     #df.sort_index(ascending=False,inplace=True)
+    #df.drop_duplicates(inplace=True)
