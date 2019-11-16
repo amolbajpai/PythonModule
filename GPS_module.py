@@ -315,3 +315,4 @@ def update_driver_details_db():
 
     #df.sort_index(ascending=False,inplace=True)
     #df.drop_duplicates(inplace=True)
+    #df.drop_duplicates(subset="Vehicle No",inplace=True)
