@@ -317,3 +317,4 @@ def update_driver_details_db():
     #df.drop_duplicates(inplace=True)
     #df.drop_duplicates(subset="Vehicle No",inplace=True)
     df['Vehicle No'] = df['Vehicle No'].str.upper()
+    df.drop_duplicates(subset="Vehicle No",keep='last',inplace=True)
