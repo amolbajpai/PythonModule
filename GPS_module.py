@@ -319,3 +319,4 @@ def update_driver_details_db():
     df['Vehicle No'] = df['Vehicle No'].str.upper()
     df.drop_duplicates(subset="Vehicle No",keep='last',inplace=True)
     df_csv = pd.read_csv("/home/amol/Documents/Excel Files/Templates/Create CSV Contacts.csv")
+    def change_vehice_number(veh):
