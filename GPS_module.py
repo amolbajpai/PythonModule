@@ -321,3 +321,5 @@ def update_driver_details_db():
     df_csv = pd.read_csv("/home/amol/Documents/Excel Files/Templates/Create CSV Contacts.csv")
     def change_vehice_number(veh):
         return veh[-4:]+"-"+veh
+
+    df_csv['Name']= df['Vehicle No'].map(change_vehice_number)
