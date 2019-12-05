@@ -323,3 +323,4 @@ def update_driver_details_db():
         return veh[-4:]+"-"+veh
 
     df_csv['Name']= df['Vehicle No'].map(change_vehice_number)
+    df_csv['Yomi Name'] = df['Driver Name']
