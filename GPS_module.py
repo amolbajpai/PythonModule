@@ -324,3 +324,4 @@ def update_driver_details_db():
 
     df_csv['Name']= df['Vehicle No'].map(change_vehice_number)
     df_csv['Yomi Name'] = df['Driver Name']
+    df_csv['Phone 1 - Type'] = "Mobile"
