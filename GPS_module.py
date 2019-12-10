@@ -326,3 +326,4 @@ def update_driver_details_db():
     df_csv['Yomi Name'] = df['Driver Name']
     df_csv['Phone 1 - Type'] = "Mobile"
     df_csv['Phone 1 - Value'] = df['Driver Mobile']
+    df_csv['Phone 2 - Type'] = "Mobile"
