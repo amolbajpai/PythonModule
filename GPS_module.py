@@ -328,3 +328,4 @@ def update_driver_details_db():
     df_csv['Phone 1 - Value'] = df['Driver Mobile']
     df_csv['Phone 2 - Type'] = "Mobile"
     df_csv['Phone 2 - Value'] = df['Mobile No']
+    df_csv['Notes'] = df['Branch'] + "---" + df['Zone'] + " | " + "FROM " + df['From City'].str.title() + " TO " + df['To City'].str.title()
