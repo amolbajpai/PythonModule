@@ -333,3 +333,4 @@ def update_driver_details_db():
     df_csv.to_csv('/home/amol/Desktop/Driver Contacts.csv',index=None)
     print("CSV created ..... ")
     #Createing file /home/amol/Documents/Excel Files/Driver_Mobile_Number.xlsx
+    df_db_excel = df[['Vehicle No','Driver Mobile', 'Mobile No','Request By Mobile','Manual Driver code', 'Driver Name', 'Branch', 'Zone','From City', 'To City']]
