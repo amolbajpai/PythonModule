@@ -336,3 +336,5 @@ def update_driver_details_db():
     df_db_excel = df[['Vehicle No','Driver Mobile', 'Mobile No','Request By Mobile','Manual Driver code', 'Driver Name', 'Branch', 'Zone','From City', 'To City']]
     df_db_excel.to_excel("/home/amol/Documents/Excel Files/Driver_Mobile_Number.xlsx",index=None)
     print("Excel file: /home/amol/Documents/Excel Files/Driver_Mobile_Number.xlsx\nCreated ............")
+
+def gps_stop_enroute_report():
