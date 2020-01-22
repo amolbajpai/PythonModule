@@ -344,3 +344,5 @@ def gps_stop_enroute_report():
     from openpyxl import load_workbook
     #from datetime import *
     import datetime
+
+    latest_csr_file = my_gps.find_latest_current_status_report()
