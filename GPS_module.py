@@ -348,3 +348,4 @@ def gps_stop_enroute_report():
     latest_csr_file = my_gps.find_latest_current_status_report()
 
     df=pd.read_excel(latest_csr_file,sheet_name="Current Status Report")
+    #For filling NA with NA string
