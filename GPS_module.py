@@ -349,3 +349,4 @@ def gps_stop_enroute_report():
 
     df=pd.read_excel(latest_csr_file,sheet_name="Current Status Report")
     #For filling NA with NA string
+    df[df['Location'].isna()] = df[df['Location'].isna()].fillna("NA")
