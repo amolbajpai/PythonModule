@@ -351,3 +351,5 @@ def gps_stop_enroute_report():
     #For filling NA with NA string
     df[df['Location'].isna()] = df[df['Location'].isna()].fillna("NA")
     print("Maximum GPS Time is = {}".format(df.loc[1,'Date/Time']))
+
+    #calculating datetime of currnet time - latest csr  
