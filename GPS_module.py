@@ -354,3 +354,4 @@ def gps_stop_enroute_report():
 
     #calculating datetime of currnet time - latest csr  
     maximum_gps_time = df.loc[1,'Date/Time']
+    maximum_gps_time = datetime.datetime.strptime(maximum_gps_time,"%Y/%m/%d %H:%M")
