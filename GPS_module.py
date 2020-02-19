@@ -359,3 +359,5 @@ def gps_stop_enroute_report():
 
 
     df.to_excel("/home/amol/Downloads/temp.xlsx",index=None)
+
+    gps = load_workbook('/home/amol/Documents/Excel Files/Email GPS Ver 6.xlsx')
