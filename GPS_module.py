@@ -364,3 +364,4 @@ def gps_stop_enroute_report():
     gps_ws=gps['Current Status Report']
     novire = load_workbook("/home/amol/Downloads/temp.xlsx")
     novire_ws=novire['Sheet1']
+    #vhiof = load_workbook('/home/amol/Desktop/VHIOF/vehicle hold in other fleet.xlsx')
