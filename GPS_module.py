@@ -381,3 +381,4 @@ def gps_stop_enroute_report():
     #        gps_ws_pastereport.cell(row=i,column=j).value=vhiof_ws.cell(row=i,column=j).value
 
     #New Code
+    gps_report_info = gps['REPORT INFO']
