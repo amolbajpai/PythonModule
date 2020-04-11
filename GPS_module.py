@@ -384,3 +384,4 @@ def gps_stop_enroute_report():
     gps_report_info = gps['REPORT INFO']
 
     #gps_report_info.delete_cols(6,2)
+    #gps_report_info.insert_cols(6,2)
