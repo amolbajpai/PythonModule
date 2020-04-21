@@ -388,3 +388,4 @@ def gps_stop_enroute_report():
 
     try:
         last_vsr_file = my_gps.find_latest_vsr()
+    except:
