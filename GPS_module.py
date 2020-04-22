@@ -389,3 +389,4 @@ def gps_stop_enroute_report():
     try:
         last_vsr_file = my_gps.find_latest_vsr()
     except:
+        memory_file = open('/home/amol/Documents/Excel Files/Templates/program_memory_files/last_used_vsr_file.mem','r')
