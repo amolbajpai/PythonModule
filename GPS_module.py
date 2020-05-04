@@ -392,3 +392,7 @@ def gps_stop_enroute_report():
         memory_file = open('/home/amol/Documents/Excel Files/Templates/program_memory_files/last_used_vsr_file.mem','r')
         last_vsr_file = memory_file.readline()
         print("Hi I am using VSR file : ",last_vsr_file)
+
+
+
+    vsr = pd.read_excel(last_vsr_file,sheet_name='Vehicle_Status_Register_Quick',usecols=['Vehicle No','Vehicle control Location'])
