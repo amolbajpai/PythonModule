@@ -396,3 +396,4 @@ def gps_stop_enroute_report():
 
 
     vsr = pd.read_excel(last_vsr_file,sheet_name='Vehicle_Status_Register_Quick',usecols=['Vehicle No','Vehicle control Location'])
+    vsr = vsr[['Vehicle No','Vehicle control Location']]
