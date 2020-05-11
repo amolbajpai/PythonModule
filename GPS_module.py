@@ -397,3 +397,6 @@ def gps_stop_enroute_report():
 
     vsr = pd.read_excel(last_vsr_file,sheet_name='Vehicle_Status_Register_Quick',usecols=['Vehicle No','Vehicle control Location'])
     vsr = vsr[['Vehicle No','Vehicle control Location']]
+
+
+    driver_number = pd.read_excel('/home/amol/Documents/Excel Files/Driver_Mobile_Number.xlsx',sheet_name='Sheet1')
