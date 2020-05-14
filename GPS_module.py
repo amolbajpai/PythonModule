@@ -400,3 +400,4 @@ def gps_stop_enroute_report():
 
 
     driver_number = pd.read_excel('/home/amol/Documents/Excel Files/Driver_Mobile_Number.xlsx',sheet_name='Sheet1')
+    vsr = vsr.merge(driver_number,on='Vehicle No',how='outer')
