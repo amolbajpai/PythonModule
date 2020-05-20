@@ -404,3 +404,4 @@ def gps_stop_enroute_report():
 
 
     r=1
+    for i in vsr.index:
