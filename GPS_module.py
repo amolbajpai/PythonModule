@@ -405,3 +405,4 @@ def gps_stop_enroute_report():
 
     r=1
     for i in vsr.index:
+        gps_report_info.cell(row=r,column=6).value=vsr.iloc[r-1,0]
