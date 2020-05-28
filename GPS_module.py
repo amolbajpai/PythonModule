@@ -407,3 +407,4 @@ def gps_stop_enroute_report():
     for i in vsr.index:
         gps_report_info.cell(row=r,column=6).value=vsr.iloc[r-1,0]
         gps_report_info.cell(row=r,column=7).value=vsr.iloc[r-1,1]
+        gps_report_info.cell(row=r,column=10).value=vsr.iloc[r-1,2] #for driver mobile number add in excel
