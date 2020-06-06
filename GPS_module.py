@@ -411,3 +411,5 @@ def gps_stop_enroute_report():
         r+=1
 
     #New Code
+
+    date=datetime.datetime.now()     
