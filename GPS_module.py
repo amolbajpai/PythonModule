@@ -414,3 +414,4 @@ def gps_stop_enroute_report():
 
     date=datetime.datetime.now()     
     date=date.strftime(" %d %b %Y %X")
+    date=str(date)
