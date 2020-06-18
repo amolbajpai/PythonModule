@@ -417,3 +417,4 @@ def gps_stop_enroute_report():
     date=str(date)
 
     file_name="/home/amol/Desktop/GPS Email"+date+".xlsx"
+    file_name = file_name.replace(" ","_")
