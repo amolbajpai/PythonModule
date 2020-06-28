@@ -420,3 +420,5 @@ def gps_stop_enroute_report():
     file_name = file_name.replace(" ","_")
 
     gps.save(file_name)
+
+    print('Your report has been created successfully\nOutput file is located on Desktop, file name is "{}"\nFull path is {}'.format(file_name.split("/")[-1],file_name))
