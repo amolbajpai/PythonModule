@@ -426,3 +426,4 @@ def gps_stop_enroute_report():
     #memory_file.write(last_vsr_file)
     #memory_file.close()
     with open('/home/amol/Documents/Excel Files/Templates/program_memory_files/last_used_vsr_file.mem','w',encoding = 'utf-8') as f:
+        f.write(last_vsr_file)
