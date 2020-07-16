@@ -429,3 +429,5 @@ def gps_stop_enroute_report():
         f.write(last_vsr_file)
         f.close()
     return file_name
+
+def rename_and_move_csr_file():
