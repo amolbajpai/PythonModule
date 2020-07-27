@@ -436,3 +436,4 @@ def rename_and_move_csr_file():
     import ayansh as gps
     #import subprocess
     from datetime import datetime
+    #path = '/home/amol/Desktop/csr/'
