@@ -437,3 +437,4 @@ def rename_and_move_csr_file():
     #import subprocess
     from datetime import datetime
     #path = '/home/amol/Desktop/csr/'
+    path= '/home/amol/Downloads/'
