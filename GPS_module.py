@@ -438,3 +438,5 @@ def rename_and_move_csr_file():
     from datetime import datetime
     #path = '/home/amol/Desktop/csr/'
     path= '/home/amol/Downloads/'
+
+    all_files=os.listdir(path)
