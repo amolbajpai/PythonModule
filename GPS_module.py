@@ -440,3 +440,5 @@ def rename_and_move_csr_file():
     path= '/home/amol/Downloads/'
 
     all_files=os.listdir(path)
+
+    csr_files=[]
