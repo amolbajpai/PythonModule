@@ -447,3 +447,4 @@ def rename_and_move_csr_file():
         try:
             if i[:21]=='Current_Status_Report':
                 csr_files.append(i)
+        except:
