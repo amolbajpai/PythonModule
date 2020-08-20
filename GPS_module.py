@@ -449,3 +449,6 @@ def rename_and_move_csr_file():
                 csr_files.append(i)
         except:
             pass
+
+
+    for i in csr_files:
