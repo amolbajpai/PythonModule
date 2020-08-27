@@ -454,3 +454,4 @@ def rename_and_move_csr_file():
     for i in csr_files:
         df = pd.read_excel(path+i,sheet_name='REPORT INFO')
         file_date = df.iloc[6,1]
+        file_date =datetime.strptime(file_date,'%d/%m/%Y %H:%M:%S')
