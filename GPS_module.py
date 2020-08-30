@@ -456,3 +456,4 @@ def rename_and_move_csr_file():
         file_date = df.iloc[6,1]
         file_date =datetime.strptime(file_date,'%d/%m/%Y %H:%M:%S')
         file_date=file_date.strftime("%Y-%m-%d %X")
+        os.rename(path+i,path+"Current_Status_Report "+file_date+".xls")
