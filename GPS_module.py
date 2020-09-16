@@ -463,3 +463,5 @@ def rename_and_move_csr_file():
     import shutil
 
     all_files=os.listdir(path)
+
+    csr_files=[]
