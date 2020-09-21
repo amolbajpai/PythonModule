@@ -467,3 +467,4 @@ def rename_and_move_csr_file():
     csr_files=[]
 
     for i in all_files:
+        try:
