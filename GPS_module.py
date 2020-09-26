@@ -469,3 +469,4 @@ def rename_and_move_csr_file():
     for i in all_files:
         try:
             if i[:21]=='Current_Status_Report':
+                csr_files.append(i)
