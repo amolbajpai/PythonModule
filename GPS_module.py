@@ -475,3 +475,4 @@ def rename_and_move_csr_file():
 
 
     new_path = '/home/amol/Reports/Current Status Report/'
+    total_files = gps.getListOfFiles(new_path)
