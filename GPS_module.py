@@ -481,3 +481,4 @@ def rename_and_move_csr_file():
         shutil.move(path+file_name,new_path+file_name.split('/')[-1])
     print("Filed moved in "+new_path)
     total_files = gps.getListOfFiles(new_path)
+    print("No of files after moving = ",len(total_files))
