@@ -482,3 +482,5 @@ def rename_and_move_csr_file():
     print("Filed moved in "+new_path)
     total_files = gps.getListOfFiles(new_path)
     print("No of files after moving = ",len(total_files))
+
+def download_current_status_report_gui():
