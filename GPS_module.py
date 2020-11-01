@@ -484,3 +484,4 @@ def rename_and_move_csr_file():
     print("No of files after moving = ",len(total_files))
 
 def download_current_status_report_gui():
+    import pyautogui
