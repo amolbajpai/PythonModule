@@ -485,3 +485,4 @@ def rename_and_move_csr_file():
 
 def download_current_status_report_gui():
     import pyautogui
+    import time
