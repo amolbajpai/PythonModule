@@ -487,3 +487,4 @@ def download_current_status_report_gui():
     import pyautogui
     import time
     time.sleep(1)
+    import sys
