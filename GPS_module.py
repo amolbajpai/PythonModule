@@ -490,3 +490,4 @@ def download_current_status_report_gui():
     import sys
     import ayansh as gps
     import os
+    png_path = '/home/amol/anaconda3/lib/python3.8/site-packages/ayansh/png_for_pyautogui/csr/'
