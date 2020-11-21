@@ -493,3 +493,4 @@ def download_current_status_report_gui():
     png_path = '/home/amol/anaconda3/lib/python3.8/site-packages/ayansh/png_for_pyautogui/csr/'
     #os.chdir('/home/amol/Documents/01 - py/CurrentStatusReport/')
     os.chdir(png_path)
+    while pyautogui.locateCenterOnScreen('Google_Chrome_Icon.png',confidence=0.80) is None:
