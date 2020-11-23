@@ -494,3 +494,4 @@ def download_current_status_report_gui():
     #os.chdir('/home/amol/Documents/01 - py/CurrentStatusReport/')
     os.chdir(png_path)
     while pyautogui.locateCenterOnScreen('Google_Chrome_Icon.png',confidence=0.80) is None:
+            pass
