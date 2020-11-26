@@ -495,3 +495,4 @@ def download_current_status_report_gui():
     os.chdir(png_path)
     while pyautogui.locateCenterOnScreen('Google_Chrome_Icon.png',confidence=0.80) is None:
             pass
+    pyautogui.moveTo(pyautogui.locateCenterOnScreen('Google_Chrome_Icon.png',confidence=0.9),duration=0)
