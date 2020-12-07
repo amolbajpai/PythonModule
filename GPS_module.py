@@ -500,3 +500,4 @@ def download_current_status_report_gui():
     time.sleep(1)
 
     while pyautogui.locateCenterOnScreen('google_chorme_detector_app_icon.png',confidence=0.99) is None:
+            pass
