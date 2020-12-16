@@ -503,3 +503,5 @@ def download_current_status_report_gui():
             pass
     #pyautogui.moveTo(pyautogui.locateCenterOnScreen('google_chorme_detector_app_icon.png',confidence=0.9),duration=0)
     time.sleep(3)
+
+    pyautogui.hotkey('ctrl','t')
