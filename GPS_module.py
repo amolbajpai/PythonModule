@@ -509,3 +509,4 @@ def download_current_status_report_gui():
     pyautogui.typewrite('http://www.ivts.noviretechnologies.com/IVTS/')
     #pyautogui.typewrite('https://ivts.noviretechnologies.com/IVTS/logout.do')
     
+    pyautogui.press('enter')
