@@ -510,3 +510,6 @@ def download_current_status_report_gui():
     #pyautogui.typewrite('https://ivts.noviretechnologies.com/IVTS/logout.do')
     
     pyautogui.press('enter')
+
+
+    while pyautogui.locateCenterOnScreen('username.png',confidence=0.80) is None:
