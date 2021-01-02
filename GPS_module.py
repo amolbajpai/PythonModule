@@ -514,3 +514,4 @@ def download_current_status_report_gui():
 
     while pyautogui.locateCenterOnScreen('username.png',confidence=0.80) is None:
             pass
+    pyautogui.moveTo(pyautogui.locateCenterOnScreen('username.png',confidence=0.80),duration=0)
