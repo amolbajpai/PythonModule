@@ -517,3 +517,4 @@ def download_current_status_report_gui():
     pyautogui.moveTo(pyautogui.locateCenterOnScreen('username.png',confidence=0.80),duration=0)
     pyautogui.click()
     pyautogui.typewrite('varuna')
+    pyautogui.typewrite(['tab'])
