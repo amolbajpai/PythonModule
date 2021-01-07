@@ -518,3 +518,4 @@ def download_current_status_report_gui():
     pyautogui.click()
     pyautogui.typewrite('varuna')
     pyautogui.typewrite(['tab'])
+    #while pyautogui.locateCenterOnScreen('password.png',confidence=0.99) is None:
