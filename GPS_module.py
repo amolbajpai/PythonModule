@@ -520,3 +520,4 @@ def download_current_status_report_gui():
     pyautogui.typewrite(['tab'])
     #while pyautogui.locateCenterOnScreen('password.png',confidence=0.99) is None:
     #        pass
+    #pyautogui.moveTo(pyautogui.locateCenterOnScreen('password.png',confidence=0.9),duration=0)
