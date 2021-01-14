@@ -523,3 +523,4 @@ def download_current_status_report_gui():
     #pyautogui.moveTo(pyautogui.locateCenterOnScreen('password.png',confidence=0.9),duration=0)
     #pyautogui.click()
     pyautogui.typewrite('vil2020')
+    pyautogui.typewrite(['enter'])
