@@ -535,3 +535,5 @@ def download_current_status_report_gui():
             pass
     pyautogui.moveTo(pyautogui.locateCenterOnScreen('SelectReport.png',confidence=0.9),duration=0)
     pyautogui.click()
+
+    while pyautogui.locateCenterOnScreen('CurrentStatusReport.png',confidence=0.99) is None:
