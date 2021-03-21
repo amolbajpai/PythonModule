@@ -551,3 +551,5 @@ def download_current_status_report_gui():
     #pyautogui.moveTo(pyautogui.locateCenterOnScreen('downloaded_csr_excel_file.png',confidence=0.9),duration=0)
     #pyautogui.click()
     time.sleep(2)
+
+    pyautogui.hotkey('alt','f4')
