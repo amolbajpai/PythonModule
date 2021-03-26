@@ -553,3 +553,5 @@ def download_current_status_report_gui():
     time.sleep(2)
 
     pyautogui.hotkey('alt','f4')
+
+    print("End")
