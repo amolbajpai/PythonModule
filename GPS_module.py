@@ -555,3 +555,5 @@ def download_current_status_report_gui():
     pyautogui.hotkey('alt','f4')
 
     print("End")
+
+def send_gps_report_email_gui():
