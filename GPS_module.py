@@ -557,3 +557,4 @@ def download_current_status_report_gui():
     print("End")
 
 def send_gps_report_email_gui():
+    png_path = '/home/amol/anaconda3/lib/python3.8/site-packages/ayansh/png_for_pyautogui/send_gps_report_email/'
