@@ -562,3 +562,4 @@ def send_gps_report_email_gui():
     
 
     import os
+    os.chdir(png_path)
