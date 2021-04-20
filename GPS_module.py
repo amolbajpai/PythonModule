@@ -564,3 +564,5 @@ def send_gps_report_email_gui():
     import os
     os.chdir(png_path)
     #os.chdir()
+
+    # 1 - 9 : BLY + HYD + KOL + Bhalbarh
