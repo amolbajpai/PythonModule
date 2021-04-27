@@ -569,3 +569,4 @@ def send_gps_report_email_gui():
     #controling_branchs=["01-FLBWSE","02-FLTBLS","03-FLTBLE","04-FLBNSE","05-FLTBNW","06-FLBNWS","07-FLTNN","08-HYD","09-KOL"]
 
     #All 
+    controling_branchs=["01-FLBWSE","02-FLTBLS","03-FLTBLE","04-FLBNSE","05-FLTBNW","06-FLBNWS","07-FLTNN","08-HYD","09-KOL","10-ALL-INDIA","11-EAST","12-NORTH","13-SOUTH","14-WEST"]
