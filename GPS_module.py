@@ -574,3 +574,4 @@ def send_gps_report_email_gui():
     #controling_branchs=["13-SOUTH","14-WEST"]
 
     #BLY
+    #controling_branchs=["01-FLBWSE","02-FLTBLS","03-FLTBLE","04-FLBNSE","05-FLTBNW","06-FLBNWS"]
