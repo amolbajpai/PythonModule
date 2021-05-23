@@ -579,3 +579,4 @@ def send_gps_report_email_gui():
     #controling_branchs=["03-FLTBLE"]
 
     #BLY + HYD + KOL
+    #controling_branchs=["01-FLBWSE","02-FLTBLS","03-FLTBLE","04-FLBNSE","05-FLTBNW","06-FLBNWS","08-HYD","09-KOL"]
