@@ -585,3 +585,5 @@ def send_gps_report_email_gui():
     #controling_branchs=["07-FLTNN","10-ALL-INDIA","11-EAST","12-NORTH","13-SOUTH","14-WEST"]
 
     #import random ; random.shuffle(controling_branchs); print(controling_branchs) 
+
+    def Type_Branch_Name(i):
