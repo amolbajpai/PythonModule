@@ -589,3 +589,4 @@ def send_gps_report_email_gui():
     def Type_Branch_Name(i):
         while pyautogui.locateCenterOnScreen('SrNo.png',confidence=0.99) is None:
             pass
+        pyautogui.moveTo(pyautogui.locateCenterOnScreen('SrNo.png',confidence=0.99),duration=0)
