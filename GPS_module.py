@@ -593,3 +593,4 @@ def send_gps_report_email_gui():
         pyautogui.click()
         pyautogui.typewrite(['left'], interval=0.2)
         while pyautogui.locateCenterOnScreen('list_popup.png',confidence=0.99) is None:
+            pass
