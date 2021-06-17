@@ -595,3 +595,4 @@ def send_gps_report_email_gui():
         while pyautogui.locateCenterOnScreen('list_popup.png',confidence=0.99) is None:
             pass
         pyautogui.moveTo(pyautogui.locateCenterOnScreen('list_popup.png',confidence=0.99),duration=0)
+        pyautogui.click()
