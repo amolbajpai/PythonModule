@@ -597,3 +597,4 @@ def send_gps_report_email_gui():
         pyautogui.moveTo(pyautogui.locateCenterOnScreen('list_popup.png',confidence=0.99),duration=0)
         pyautogui.click()
         pyautogui.typewrite(i, interval=0.1)
+        pyautogui.typewrite(['f9'])
