@@ -598,3 +598,4 @@ def send_gps_report_email_gui():
         pyautogui.click()
         pyautogui.typewrite(i, interval=0.1)
         pyautogui.typewrite(['f9'])
+        pyautogui.typewrite(['enter'], interval=0.2)
