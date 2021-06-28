@@ -601,3 +601,4 @@ def send_gps_report_email_gui():
         pyautogui.typewrite(['enter'], interval=0.2)
         
         
+    def Found_Blank():
