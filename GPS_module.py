@@ -602,3 +602,4 @@ def send_gps_report_email_gui():
         
         
     def Found_Blank():
+        time.sleep(1)
