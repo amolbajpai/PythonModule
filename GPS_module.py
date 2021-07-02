@@ -603,3 +603,4 @@ def send_gps_report_email_gui():
         
     def Found_Blank():
         time.sleep(1)
+        flag=str(type(pyautogui.locateCenterOnScreen('when_report_is_blank.png',confidence=0.99)))
