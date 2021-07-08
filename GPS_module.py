@@ -606,3 +606,4 @@ def send_gps_report_email_gui():
         flag=str(type(pyautogui.locateCenterOnScreen('when_report_is_blank.png',confidence=0.99)))
 
         if flag=="<class 'pyscreeze.Point'>":
+            print("Blank")
