@@ -608,3 +608,4 @@ def send_gps_report_email_gui():
         if flag=="<class 'pyscreeze.Point'>":
             print("Blank")
             return True
+        else:
