@@ -610,3 +610,4 @@ def send_gps_report_email_gui():
             return True
         else:
             print("Not Blank")
+            return False
