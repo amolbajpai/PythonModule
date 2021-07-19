@@ -614,3 +614,4 @@ def send_gps_report_email_gui():
 
     def Send_Email_Later(T):
         print('Send email later funcation stated')
+        #Today_s_date=datetime.datetime.today()
