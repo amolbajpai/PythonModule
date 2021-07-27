@@ -618,3 +618,4 @@ def send_gps_report_email_gui():
         future_date=datetime.datetime(Today_s_date.year, Today_s_date.month, Today_s_date.day, HH, Start_Time+T+1)
         
         future_date=str(future_date)
+        while pyautogui.locateCenterOnScreen('CreateEmail.png',confidence=0.99) is None:
