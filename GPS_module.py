@@ -620,3 +620,4 @@ def send_gps_report_email_gui():
         future_date=str(future_date)
         while pyautogui.locateCenterOnScreen('CreateEmail.png',confidence=0.99) is None:
             pass
+        pyautogui.moveTo(pyautogui.locateCenterOnScreen('CreateEmail.png',confidence=0.9),duration=0)
