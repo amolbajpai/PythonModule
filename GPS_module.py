@@ -627,3 +627,4 @@ def send_gps_report_email_gui():
 
         #pyautogui.moveTo(pyautogui.locateCenterOnScreen('ThunderbirdSendButton.png',confidence=0.9),duration=0)
         pyautogui.hotkey('ctrl', 'v')
+        
