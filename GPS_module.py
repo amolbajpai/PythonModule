@@ -631,3 +631,5 @@ def send_gps_report_email_gui():
         time.sleep(1)
 
         pyautogui.hotkey('shift','ctrl','enter')
+
+        while pyautogui.locateCenterOnScreen('SendAtBox.png',confidence=0.99) is None:
