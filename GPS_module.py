@@ -636,3 +636,4 @@ def send_gps_report_email_gui():
             pass
 
         pyautogui.moveTo(pyautogui.locateCenterOnScreen('SendAtBox.png',confidence=0.99),duration=0)
+        pyautogui.hotkey('shift','home')
