@@ -639,3 +639,4 @@ def send_gps_report_email_gui():
         pyautogui.hotkey('shift','home')
         #pyautogui.typewrite(['backspace'], interval=0)
         
+        pyautogui.typewrite(future_date, interval=0.05)
