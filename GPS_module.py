@@ -640,3 +640,4 @@ def send_gps_report_email_gui():
         #pyautogui.typewrite(['backspace'], interval=0)
         
         pyautogui.typewrite(future_date, interval=0.05)
+        while pyautogui.locateCenterOnScreen('SendAroundButton.png',confidence=0.8) is None:
