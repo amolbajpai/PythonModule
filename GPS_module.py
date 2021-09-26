@@ -645,3 +645,5 @@ def send_gps_report_email_gui():
         pyautogui.moveTo(pyautogui.locateCenterOnScreen('SendAroundButton.png',confidence=0.8),duration=0.1)
         pyautogui.click()
         #time.sleep(0)
+
+    def Send_Email_Now():
