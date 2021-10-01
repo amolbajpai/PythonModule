@@ -648,3 +648,4 @@ def send_gps_report_email_gui():
 
     def Send_Email_Now():
         while pyautogui.locateCenterOnScreen('CreateEmail.png',confidence=0.99) is None:
+            pass
