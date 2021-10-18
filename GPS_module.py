@@ -658,3 +658,4 @@ def send_gps_report_email_gui():
         pyautogui.hotkey('ctrl', 'v')
         time.sleep(2)
         pyautogui.click()
+        #time.sleep(8)
