@@ -667,3 +667,5 @@ def send_gps_report_email_gui():
     import datetime
 
     pyautogui.FAILSAFE = True
+
+    Today_s_date=datetime.datetime.today()
