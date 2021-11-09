@@ -671,3 +671,4 @@ def send_gps_report_email_gui():
     Today_s_date=datetime.datetime.today()
 
     if Today_s_date.hour>=14:
+        HH=15
