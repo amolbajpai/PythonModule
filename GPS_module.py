@@ -673,3 +673,4 @@ def send_gps_report_email_gui():
     if Today_s_date.hour>=14:
         HH=15
         Start_Time = 0
+    else:
