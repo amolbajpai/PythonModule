@@ -675,3 +675,4 @@ def send_gps_report_email_gui():
         Start_Time = 0
     else:
         HH=10
+        Start_Time = 30
