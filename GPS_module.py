@@ -683,3 +683,4 @@ def send_gps_report_email_gui():
 
     for i in controling_branchs:
         
+        while True:
