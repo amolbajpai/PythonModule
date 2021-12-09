@@ -685,3 +685,4 @@ def send_gps_report_email_gui():
         
         while True:
             try:
+                print("Running for ",i)
