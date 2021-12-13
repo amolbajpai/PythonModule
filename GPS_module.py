@@ -687,3 +687,4 @@ def send_gps_report_email_gui():
             try:
                 print("Running for ",i)
                 Type_Branch_Name(i)
+                time.sleep(1)
