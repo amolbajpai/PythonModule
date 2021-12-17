@@ -689,3 +689,5 @@ def send_gps_report_email_gui():
                 Type_Branch_Name(i)
                 time.sleep(1)
                 
+
+                if Found_Blank():
