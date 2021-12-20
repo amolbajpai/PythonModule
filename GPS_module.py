@@ -691,3 +691,4 @@ def send_gps_report_email_gui():
                 
 
                 if Found_Blank():
+                    print('Report is blank')
