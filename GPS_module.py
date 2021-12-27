@@ -695,3 +695,4 @@ def send_gps_report_email_gui():
                 else:
                     while pyautogui.locateCenterOnScreen('DearConcern.png',confidence=0.8) is None:
                         pass
+                    pyautogui.moveTo(pyautogui.locateCenterOnScreen('DearConcern.png',confidence=0.8),duration=0)
