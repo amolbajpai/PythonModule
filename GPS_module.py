@@ -698,3 +698,4 @@ def send_gps_report_email_gui():
                     pyautogui.moveTo(pyautogui.locateCenterOnScreen('DearConcern.png',confidence=0.8),duration=0)
                     pyautogui.click()
                     print("After Dear Concern")
+                    
