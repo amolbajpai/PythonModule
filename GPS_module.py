@@ -704,3 +704,4 @@ def send_gps_report_email_gui():
                             if pyautogui.locateCenterOnScreen('End.png',confidence=0.8) is None:
                                 raise NameError("Eng Not fuound")
                                 
+                            pyautogui.moveTo(pyautogui.locateCenterOnScreen('End.png',confidence=0.9),duration=0)
