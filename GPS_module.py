@@ -707,3 +707,4 @@ def send_gps_report_email_gui():
                             pyautogui.moveTo(pyautogui.locateCenterOnScreen('End.png',confidence=0.9),duration=0)
                             pyautogui.click()
                             print("Eng found")
+                            pyautogui.typewrite(['left'], interval=0.2)
