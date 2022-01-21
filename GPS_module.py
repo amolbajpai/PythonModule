@@ -709,3 +709,4 @@ def send_gps_report_email_gui():
                             print("Eng found")
                             pyautogui.typewrite(['left'], interval=0.2)
                             #Selecting text
+                            pyautogui.hotkey('shift','ctrl','up')
