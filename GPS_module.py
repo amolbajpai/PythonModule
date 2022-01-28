@@ -712,3 +712,4 @@ def send_gps_report_email_gui():
                             pyautogui.hotkey('shift','ctrl','up')
                             time.sleep(0.5)
                             pyautogui.hotkey('shift','ctrl','up')
+                            time.sleep(0.5)
