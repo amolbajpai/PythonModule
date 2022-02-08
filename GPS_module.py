@@ -716,3 +716,4 @@ def send_gps_report_email_gui():
                             #Copying text
                             pyautogui.hotkey('ctrl', 'c')
                             time.sleep(0.5)
+                            #Send Email
