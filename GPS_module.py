@@ -717,3 +717,4 @@ def send_gps_report_email_gui():
                             pyautogui.hotkey('ctrl', 'c')
                             time.sleep(0.5)
                             #Send Email
+                            T=controling_branchs.index(i)
