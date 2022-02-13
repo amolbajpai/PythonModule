@@ -718,3 +718,4 @@ def send_gps_report_email_gui():
                             time.sleep(0.5)
                             #Send Email
                             T=controling_branchs.index(i)
+                            if send_emails_later_tag:
