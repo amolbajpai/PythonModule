@@ -726,3 +726,4 @@ def send_gps_report_email_gui():
                             else:
                                 Send_Email_Now()
                                 print("Send_Email_Now")
+                                break
