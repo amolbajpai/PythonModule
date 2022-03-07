@@ -729,3 +729,4 @@ def send_gps_report_email_gui():
                                 break
                                 
                         except:
+                            pyautogui.typewrite(['pgdn'], interval=0)
