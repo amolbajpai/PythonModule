@@ -732,3 +732,4 @@ def send_gps_report_email_gui():
                             pyautogui.typewrite(['pgdn'], interval=0)
                             print("Doing page down")
                             continue
+                        
