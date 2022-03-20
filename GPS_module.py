@@ -735,3 +735,4 @@ def send_gps_report_email_gui():
                         
                         
                                                 
+                time.sleep(1)
