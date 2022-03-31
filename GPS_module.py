@@ -739,3 +739,5 @@ def send_gps_report_email_gui():
                 break
             except:
                 continue
+
+    #To launch Thunderbird 
