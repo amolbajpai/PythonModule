@@ -741,3 +741,4 @@ def send_gps_report_email_gui():
                 continue
 
     #To launch Thunderbird 
+    pyautogui.moveTo(pyautogui.locateCenterOnScreen('ThunderbirdLogo.png',confidence=0.8),duration=0)
