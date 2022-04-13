@@ -749,3 +749,4 @@ def send_gps_report_email_gui():
 def on_google_search(location):
     from googlesearch import search
     query = "wiki " + location
+    #for j in search(query, tld="co.in", num=1, start=0 , stop=1,  pause=2): 
