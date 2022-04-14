@@ -750,3 +750,4 @@ def on_google_search(location):
     from googlesearch import search
     query = "wiki " + location
     #for j in search(query, tld="co.in", num=1, start=0 , stop=1,  pause=2): 
+    for j in search(location, num_results=10, lang='en'):
