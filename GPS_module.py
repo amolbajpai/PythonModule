@@ -753,3 +753,4 @@ def on_google_search(location):
     for j in search(location, num_results=10, lang='en'):
         if 'wiki' in j:
             correct_word = j.split('/')[-1]
+            return correct_word.lower()
