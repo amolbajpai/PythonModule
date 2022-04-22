@@ -754,3 +754,5 @@ def on_google_search(location):
         if 'wiki' in j:
             correct_word = j.split('/')[-1]
             return correct_word.lower()
+
+def route_geofence_validation(clipboard_data):
