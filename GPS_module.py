@@ -756,3 +756,4 @@ def on_google_search(location):
             return correct_word.lower()
 
 def route_geofence_validation(clipboard_data):
+    import pandas as pd
