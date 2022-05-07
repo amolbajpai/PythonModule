@@ -763,3 +763,4 @@ def route_geofence_validation(clipboard_data):
     import clipboard
     import os
     import numpy as np
+    import sys
