@@ -764,3 +764,6 @@ def route_geofence_validation(clipboard_data):
     import os
     import numpy as np
     import sys
+
+
+    def space_remover(text_data):
