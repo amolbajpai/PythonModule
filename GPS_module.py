@@ -767,3 +767,4 @@ def route_geofence_validation(clipboard_data):
 
 
     def space_remover(text_data):
+        text_data = text_data.strip()
