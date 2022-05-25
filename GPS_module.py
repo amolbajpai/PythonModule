@@ -774,3 +774,4 @@ def route_geofence_validation(clipboard_data):
 
     def update_route_status(problem):
         route_geo_logs = '/home/amol/Documents/Excel Files/Templates/program_memory_files/RouteGeoLogs.xlsx'
+        problem_df = pd.read_excel(route_geo_logs)
