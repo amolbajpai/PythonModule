@@ -777,3 +777,4 @@ def route_geofence_validation(clipboard_data):
         problem_df = pd.read_excel(route_geo_logs)
         clipboard_data['Problem'] = problem
         #todays_date = datetime.date.today() # only for Date No time
+        todays_date = datetime.datetime.today()
