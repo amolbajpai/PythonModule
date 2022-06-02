@@ -780,3 +780,4 @@ def route_geofence_validation(clipboard_data):
         todays_date = datetime.datetime.today()
         todays_date = todays_date.strftime("%d-%m-%Y %H:%M")
         clipboard_data['Date'] = todays_date
+        problem_df = problem_df.append(clipboard_data)
