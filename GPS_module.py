@@ -782,3 +782,5 @@ def route_geofence_validation(clipboard_data):
         clipboard_data['Date'] = todays_date
         problem_df = problem_df.append(clipboard_data)
         problem_df.to_excel(route_geo_logs,index=None)
+
+    def fromat_route_data(df):
