@@ -784,3 +784,4 @@ def route_geofence_validation(clipboard_data):
         problem_df.to_excel(route_geo_logs,index=None)
 
     def fromat_route_data(df):
+        df.loc[0,'From Location'] = df.loc[0,'From Location'].title()
