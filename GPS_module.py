@@ -785,3 +785,4 @@ def route_geofence_validation(clipboard_data):
 
     def fromat_route_data(df):
         df.loc[0,'From Location'] = df.loc[0,'From Location'].title()
+        df.loc[0,'To Location'] = df.loc[0,'To Location'].title()
