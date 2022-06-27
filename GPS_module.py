@@ -792,3 +792,4 @@ def route_geofence_validation(clipboard_data):
         df.loc[0,'Route'] = space_remover(df.loc[0,'Route'])
 
         route_city = df.loc[0,'Route'].split(' to ')
+        return route_city
