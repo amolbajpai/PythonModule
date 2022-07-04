@@ -793,3 +793,6 @@ def route_geofence_validation(clipboard_data):
 
         route_city = df.loc[0,'Route'].split(' to ')
         return route_city
+
+
+    def create_route_geo_file(final):
