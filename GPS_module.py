@@ -798,3 +798,4 @@ def route_geofence_validation(clipboard_data):
     def create_route_geo_file(final):
 
         #for creating excel file
+        final = final.loc[start_index:end_index:]
