@@ -800,3 +800,4 @@ def route_geofence_validation(clipboard_data):
         #for creating excel file
         final = final.loc[start_index:end_index:]
         final = final[['SrNo', 'Vehicle', 'Date/Time', 'Location', 'Latitude', 'Longitude', 'Speed']]
+        final['SrNo']=range(1,final['SrNo'].count()+1,1)
