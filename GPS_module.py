@@ -802,3 +802,4 @@ def route_geofence_validation(clipboard_data):
         final = final[['SrNo', 'Vehicle', 'Date/Time', 'Location', 'Latitude', 'Longitude', 'Speed']]
         final['SrNo']=range(1,final['SrNo'].count()+1,1)
         target_file_name = '/home/amol/Documents/Excel Files/Geofance/output/Route Geo-fence for '+clipboard_data['From Location'][0].title()+' to '+clipboard_data['To Location'][0].title()+'.xlsx'
+        final.to_excel(target_file_name,index=None)
