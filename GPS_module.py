@@ -810,3 +810,4 @@ def route_geofence_validation(clipboard_data):
         worksheet_sheet1 = my_workbook.active
         #Define a border
         my_border = openpyxl.styles.Side(style='thin',color='000000')
+        border_ready = openpyxl.styles.Border(left=my_border,right=my_border,top=my_border,bottom=my_border)
