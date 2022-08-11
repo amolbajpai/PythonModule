@@ -813,3 +813,4 @@ def route_geofence_validation(clipboard_data):
         border_ready = openpyxl.styles.Border(left=my_border,right=my_border,top=my_border,bottom=my_border)
         rows = worksheet_sheet1.iter_rows(max_row=worksheet_sheet1.max_row,max_col=worksheet_sheet1.max_column)
         for row in rows:
+            for cell in row:
