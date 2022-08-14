@@ -814,3 +814,4 @@ def route_geofence_validation(clipboard_data):
         rows = worksheet_sheet1.iter_rows(max_row=worksheet_sheet1.max_row,max_col=worksheet_sheet1.max_column)
         for row in rows:
             for cell in row:
+                cell.border = border_ready
