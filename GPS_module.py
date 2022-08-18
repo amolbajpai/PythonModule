@@ -815,3 +815,5 @@ def route_geofence_validation(clipboard_data):
         for row in rows:
             for cell in row:
                 cell.border = border_ready
+
+        my_workbook.save(target_file_name)
