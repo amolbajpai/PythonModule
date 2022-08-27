@@ -819,3 +819,5 @@ def route_geofence_validation(clipboard_data):
         my_workbook.save(target_file_name)
         print("File saved..............")
         #Code for adding border /
+
+        Subject = 'Create route Geo-fence for ' + clipboard_data['From Location'][0].title() + ' to ' + clipboard_data['To Location'][0].title()
