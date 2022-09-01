@@ -821,3 +821,5 @@ def route_geofence_validation(clipboard_data):
         #Code for adding border /
 
         Subject = 'Create route Geo-fence for ' + clipboard_data['From Location'][0].title() + ' to ' + clipboard_data['To Location'][0].title()
+
+        Body = 'Dear Team%0A%0APlease create route Geo-fence for ' + clipboard_data['From Location'][0].title() + ' to ' + clipboard_data['To Location'][0].title() +'; find route detail in attached file.'
