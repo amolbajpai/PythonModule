@@ -825,3 +825,4 @@ def route_geofence_validation(clipboard_data):
         Body = 'Dear Team%0A%0APlease create route Geo-fence for ' + clipboard_data['From Location'][0].title() + ' to ' + clipboard_data['To Location'][0].title() +'; find route detail in attached file.'
 
         hlink = '<a href="mailto:service.team@testing.net.in,support@autoplant.in?cc=datta@autoplant.in,subroto.roy@noviretechnologies.com,yogesh.pawar@noviretechnologies.com,kapil.verma@test.net,harish.wadhwani@test.net,support.it.dharuhera@test.net,controlroom.dharuhera@test.net,&subject='+Subject+'&body='+Body+'">Send Email</a>'
+        linkpath = target_file_name[:-4]+ 'html'
