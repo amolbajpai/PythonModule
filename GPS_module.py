@@ -827,3 +827,4 @@ def route_geofence_validation(clipboard_data):
         hlink = '<a href="mailto:service.team@testing.net.in,support@autoplant.in?cc=datta@autoplant.in,subroto.roy@noviretechnologies.com,yogesh.pawar@noviretechnologies.com,kapil.verma@test.net,harish.wadhwani@test.net,support.it.dharuhera@test.net,controlroom.dharuhera@test.net,&subject='+Subject+'&body='+Body+'">Send Email</a>'
         linkpath = target_file_name[:-4]+ 'html'
         hfile = open(linkpath,'w')
+        hfile.write(hlink)
