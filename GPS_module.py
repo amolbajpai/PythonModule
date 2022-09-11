@@ -828,3 +828,4 @@ def route_geofence_validation(clipboard_data):
         linkpath = target_file_name[:-4]+ 'html'
         hfile = open(linkpath,'w')
         hfile.write(hlink)
+        hfile.close()
