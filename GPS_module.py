@@ -830,3 +830,7 @@ def route_geofence_validation(clipboard_data):
         hfile.write(hlink)
         hfile.close()
         print('Email link created.....')
+
+
+
+    route_city = fromat_route_data(clipboard_data)
