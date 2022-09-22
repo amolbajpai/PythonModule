@@ -834,3 +834,4 @@ def route_geofence_validation(clipboard_data):
 
 
     route_city = fromat_route_data(clipboard_data)
+    city_dictonary_file = '/home/amol/Documents/Excel Files/Templates/program_memory_files/City_Dict.xlsx'
