@@ -838,3 +838,4 @@ def route_geofence_validation(clipboard_data):
     city_dict_df = pd.read_excel(city_dictonary_file,index_col='Word')
     route_city_validated = []
     for city in route_city:
+        try:
