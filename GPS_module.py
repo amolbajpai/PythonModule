@@ -839,3 +839,4 @@ def route_geofence_validation(clipboard_data):
     route_city_validated = []
     for city in route_city:
         try:
+            search_result = city_dict_df.loc[city][0]
