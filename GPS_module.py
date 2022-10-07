@@ -842,3 +842,4 @@ def route_geofence_validation(clipboard_data):
             search_result = city_dict_df.loc[city][0]
 
             print(search_result)
+        except:
