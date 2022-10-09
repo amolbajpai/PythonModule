@@ -843,3 +843,4 @@ def route_geofence_validation(clipboard_data):
 
             print(search_result)
         except:
+            print("Searcing ",city)
