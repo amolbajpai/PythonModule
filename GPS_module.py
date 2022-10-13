@@ -845,3 +845,4 @@ def route_geofence_validation(clipboard_data):
         except:
             print("Searcing ",city)
             search_result = gps.on_google_search(city)
+            print("Result   ",search_result)
