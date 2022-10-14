@@ -846,3 +846,4 @@ def route_geofence_validation(clipboard_data):
             print("Searcing ",city)
             search_result = gps.on_google_search(city)
             print("Result   ",search_result)
+            city_dict_df.reset_index(drop=False,inplace=True)
