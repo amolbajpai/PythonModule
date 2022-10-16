@@ -847,3 +847,4 @@ def route_geofence_validation(clipboard_data):
             search_result = gps.on_google_search(city)
             print("Result   ",search_result)
             city_dict_df.reset_index(drop=False,inplace=True)
+            city_dict_df = city_dict_df.append({'Word' : city, 'Correct' : search_result },ignore_index=True)
