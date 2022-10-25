@@ -850,3 +850,5 @@ def route_geofence_validation(clipboard_data):
             city_dict_df = city_dict_df.append({'Word' : city, 'Correct' : search_result },ignore_index=True)
             city_dict_df.drop_duplicates('Word',inplace=True)
             city_dict_df.set_index('Word',inplace=True)
+
+        route_city_validated.append(search_result)
