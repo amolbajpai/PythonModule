@@ -859,3 +859,5 @@ def route_geofence_validation(clipboard_data):
     #sys.exit()
 
     problem = ''
+
+    To =  route_city_validated[-1]
