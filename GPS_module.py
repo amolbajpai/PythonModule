@@ -867,3 +867,4 @@ def route_geofence_validation(clipboard_data):
 
 
     print("Input Values")
+    print("Vehicle No: ",clipboard_data.loc[0,'Vehicle No'])
