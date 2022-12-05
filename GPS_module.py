@@ -870,3 +870,5 @@ def route_geofence_validation(clipboard_data):
     print("Vehicle No: ",clipboard_data.loc[0,'Vehicle No'])
     print("From: ",From)
     print("To: ",To)
+
+    From_point = route_city_validated[0]
