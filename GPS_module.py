@@ -872,3 +872,4 @@ def route_geofence_validation(clipboard_data):
     print("To: ",To)
 
     From_point = route_city_validated[0]
+    To_point = route_city_validated[-1]
