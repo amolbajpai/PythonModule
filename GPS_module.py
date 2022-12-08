@@ -873,3 +873,4 @@ def route_geofence_validation(clipboard_data):
 
     From_point = route_city_validated[0]
     To_point = route_city_validated[-1]
+    rtr_file = gps.find_latest_real_time_report()
