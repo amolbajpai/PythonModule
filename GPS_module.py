@@ -876,3 +876,4 @@ def route_geofence_validation(clipboard_data):
     rtr_file = gps.find_latest_real_time_report()
 
     df = pd.read_excel(rtr_file,sheet_name='Real Time Report')
+    df.replace('Invalid GPS Data',"No_Data",inplace=True)
