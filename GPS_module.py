@@ -878,3 +878,4 @@ def route_geofence_validation(clipboard_data):
     df = pd.read_excel(rtr_file,sheet_name='Real Time Report')
     df.replace('Invalid GPS Data',"No_Data",inplace=True)
     df.dropna(subset=['Location'],inplace=True)
+    #df = pd.read_excel('/home/amol/Downloads/Real_Time_Report_Of_'+vehicle_no+'.xls',sheet_name='Real Time Report')
