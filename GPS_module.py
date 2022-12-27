@@ -881,3 +881,4 @@ def route_geofence_validation(clipboard_data):
     #df = pd.read_excel('/home/amol/Downloads/Real_Time_Report_Of_'+vehicle_no+'.xls',sheet_name='Real Time Report')
     final = df.drop_duplicates(subset=['Location','Latitude','Longitude']).reset_index(drop=True).copy()
     #final.dropna()
+    
