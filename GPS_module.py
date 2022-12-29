@@ -882,3 +882,4 @@ def route_geofence_validation(clipboard_data):
     final = df.drop_duplicates(subset=['Location','Latitude','Longitude']).reset_index(drop=True).copy()
     #final.dropna()
     
+    final['test']=final["Location"].str.lower()
