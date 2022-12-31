@@ -883,3 +883,4 @@ def route_geofence_validation(clipboard_data):
     #final.dropna()
     
     final['test']=final["Location"].str.lower()
+    
