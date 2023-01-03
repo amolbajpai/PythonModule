@@ -884,3 +884,4 @@ def route_geofence_validation(clipboard_data):
     
     final['test']=final["Location"].str.lower()
     
+    #not_road = final['test'].str.contains('road',na=False) Expressway
