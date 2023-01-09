@@ -888,3 +888,4 @@ def route_geofence_validation(clipboard_data):
     start_index = -1
     ### Searching To Location
     exclude_locations = ['kanpur nagar']
+    enroute_keywords = ['road', 'marg', 'university','express toll','expressway', 'expressways', 'highway' ,'km away from', 'bypass','out gate']
