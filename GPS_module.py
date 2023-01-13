@@ -891,3 +891,4 @@ def route_geofence_validation(clipboard_data):
     enroute_keywords = ['road', 'marg', 'university','express toll','expressway', 'expressways', 'highway' ,'km away from', 'bypass','out gate']
     for i in final.index:
         exclude_flag = 0
+        for excl_loc in exclude_locations:
