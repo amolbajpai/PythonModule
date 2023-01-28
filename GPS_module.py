@@ -898,3 +898,4 @@ def route_geofence_validation(clipboard_data):
                 break
         if exclude_flag == 1:
             continue
+        #print(final.loc[i,'test'])
