@@ -906,3 +906,4 @@ def route_geofence_validation(clipboard_data):
             for e_location in enroute_keywords:
                 if temp_location.find(e_location) != -1:
                     found_flag = 1
+                    break
