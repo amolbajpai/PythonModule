@@ -907,3 +907,4 @@ def route_geofence_validation(clipboard_data):
                 if temp_location.find(e_location) != -1:
                     found_flag = 1
                     break
+                #to exclude 'KM Away From'
