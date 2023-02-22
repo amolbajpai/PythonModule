@@ -913,3 +913,4 @@ def route_geofence_validation(clipboard_data):
                     break                    
 
             if found_flag == 0: # then location is ok
+                start_index = i
