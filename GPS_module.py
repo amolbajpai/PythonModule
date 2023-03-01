@@ -916,3 +916,4 @@ def route_geofence_validation(clipboard_data):
                 start_index = i
                 break
             else:
+                start_index = -1
