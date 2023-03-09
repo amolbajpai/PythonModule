@@ -920,3 +920,4 @@ def route_geofence_validation(clipboard_data):
     """filt = (final['test'].str.contains(To_point,na=False)) & ~(final['test'].str.contains('road',na=False)) & ~(final['test'].str.contains('expressway',na=False)) & ~(final['test'].str.contains('km away from',na=False))  # KM Away from
     s = final[filt]
     try:
+        start_index = s.index[0]
