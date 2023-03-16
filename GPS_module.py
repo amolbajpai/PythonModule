@@ -923,3 +923,5 @@ def route_geofence_validation(clipboard_data):
         start_index = s.index[0]
     except:
         start_index = 0"""
+
+    ### Searching From Location
