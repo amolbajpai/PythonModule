@@ -925,3 +925,4 @@ def route_geofence_validation(clipboard_data):
         start_index = 0"""
 
     ### Searching From Location
+    end_index = -1
