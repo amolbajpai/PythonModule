@@ -926,3 +926,4 @@ def route_geofence_validation(clipboard_data):
 
     ### Searching From Location
     end_index = -1
+    for i in final[::-1].index:
