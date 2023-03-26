@@ -928,3 +928,4 @@ def route_geofence_validation(clipboard_data):
     end_index = -1
     for i in final[::-1].index:
         exclude_flag = 0
+        for excl_loc in exclude_locations:
