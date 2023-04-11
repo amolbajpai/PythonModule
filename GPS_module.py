@@ -936,3 +936,4 @@ def route_geofence_validation(clipboard_data):
         if exclude_flag == 1:
             continue
         #print(final.loc[i,'test'])
+        if From_point in final.loc[i,'test']:
