@@ -938,3 +938,4 @@ def route_geofence_validation(clipboard_data):
         #print(final.loc[i,'test'])
         if From_point in final.loc[i,'test']:
             found_after_char = final.loc[i,'test'].find(From_point)
+            temp_location = final.loc[i,'test'][found_after_char:]
