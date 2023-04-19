@@ -940,3 +940,4 @@ def route_geofence_validation(clipboard_data):
             found_after_char = final.loc[i,'test'].find(From_point)
             temp_location = final.loc[i,'test'][found_after_char:]
             found_flag = 0
+            for e_location in enroute_keywords:
