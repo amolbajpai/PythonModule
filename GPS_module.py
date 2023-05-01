@@ -946,3 +946,4 @@ def route_geofence_validation(clipboard_data):
                     break
 
                #to exclude 'KM Away From'
+                elif 'km away from' in final.loc[i,'test']:
