@@ -949,3 +949,6 @@ def route_geofence_validation(clipboard_data):
                 elif 'km away from' in final.loc[i,'test']:
                     found_flag = 1
                     break                    
+
+
+            if found_flag == 0: # then location is ok
