@@ -953,3 +953,4 @@ def route_geofence_validation(clipboard_data):
 
             if found_flag == 0: # then location is ok
                 end_index = i
+                break #commenting to get last from point
