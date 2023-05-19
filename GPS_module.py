@@ -955,3 +955,4 @@ def route_geofence_validation(clipboard_data):
                 end_index = i
                 break #commenting to get last from point
             else:
+                end_index = -1
