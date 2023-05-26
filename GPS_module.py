@@ -960,3 +960,4 @@ def route_geofence_validation(clipboard_data):
     e=final[filt]
     try:
         end_index = e.index[0]
+    except:
