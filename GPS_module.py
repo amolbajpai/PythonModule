@@ -963,3 +963,4 @@ def route_geofence_validation(clipboard_data):
     except:
         end_index = 0
     """
+    #Error handling for 'To' point
