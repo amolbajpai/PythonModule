@@ -966,3 +966,4 @@ def route_geofence_validation(clipboard_data):
     #Error handling for 'To' point
 
     if end_index == -1 :
+        update_route_status("From Location not found")
