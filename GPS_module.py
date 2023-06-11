@@ -969,3 +969,5 @@ def route_geofence_validation(clipboard_data):
         update_route_status("From Location not found")
         print("From point not found")
         problem = "From point not found"
+
+    elif start_index == -1 :
