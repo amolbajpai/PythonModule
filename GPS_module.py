@@ -979,3 +979,5 @@ def route_geofence_validation(clipboard_data):
         update_route_status("Route not found")
         print("Route not found")
         problem = "Route not found"
+
+    else:
