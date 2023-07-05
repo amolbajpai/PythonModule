@@ -982,3 +982,4 @@ def route_geofence_validation(clipboard_data):
 
     else:
         problem = ''
+        final = final.loc[start_index:end_index:].copy()   
