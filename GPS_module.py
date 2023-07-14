@@ -986,3 +986,4 @@ def route_geofence_validation(clipboard_data):
         for i in route_city_validated:
             flag = 0
             filt = final['test'].str.contains(i,na=False)
+            for j in list(filt):
