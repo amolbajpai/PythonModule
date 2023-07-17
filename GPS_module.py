@@ -988,3 +988,4 @@ def route_geofence_validation(clipboard_data):
             filt = final['test'].str.contains(i,na=False)
             for j in list(filt):
                 flag = 0
+                if j == True:
