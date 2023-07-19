@@ -989,3 +989,4 @@ def route_geofence_validation(clipboard_data):
             for j in list(filt):
                 flag = 0
                 if j == True:
+                    flag+=1
