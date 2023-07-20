@@ -990,3 +990,4 @@ def route_geofence_validation(clipboard_data):
                 flag = 0
                 if j == True:
                     flag+=1
+                    print(i.title()," - OK",end=", ")
