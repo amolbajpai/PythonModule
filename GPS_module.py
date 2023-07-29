@@ -994,3 +994,4 @@ def route_geofence_validation(clipboard_data):
                     break
             if flag ==0:
                 print(i.title()," - N/A",end=", ")
+                problem = problem + i.title()+" - N/A, "
