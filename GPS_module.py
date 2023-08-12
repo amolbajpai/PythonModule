@@ -1000,3 +1000,5 @@ def route_geofence_validation(clipboard_data):
 
         #updateing unsuccessful route in excel file
         update_route_status(problem)
+
+        if len(problem)==0:
