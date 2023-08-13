@@ -1002,3 +1002,4 @@ def route_geofence_validation(clipboard_data):
         update_route_status(problem)
 
         if len(problem)==0:
+            create_route_geo_file(final)
