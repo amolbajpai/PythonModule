@@ -1003,3 +1003,4 @@ def route_geofence_validation(clipboard_data):
 
         if len(problem)==0:
             create_route_geo_file(final)
+            #create_email_link()
