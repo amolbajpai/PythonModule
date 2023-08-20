@@ -1006,3 +1006,4 @@ def route_geofence_validation(clipboard_data):
             #create_email_link()
             #lauch_email_link
     #Remove Real time report         
+    #os.remove(rtr_file)
