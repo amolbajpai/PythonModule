@@ -1007,3 +1007,4 @@ def route_geofence_validation(clipboard_data):
             #lauch_email_link
     #Remove Real time report         
     #os.remove(rtr_file)
+    os.rename(rtr_file,'/home/amol/RTR/{} {} to {} {}.xlsx'.format(clipboard_data.loc[0,'Vehicle No'],clipboard_data.loc[0,'From Location'],clipboard_data.loc[0,'To Location'],str(datetime.datetime.today())))
