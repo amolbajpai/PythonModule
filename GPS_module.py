@@ -1012,3 +1012,5 @@ def route_geofence_validation(clipboard_data):
         return [clipboard_data.loc[0,'From Location'],clipboard_data.loc[0,'To Location']]
     else:
         return None
+
+    
