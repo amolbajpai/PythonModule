@@ -1014,3 +1014,5 @@ def route_geofence_validation(clipboard_data):
         return None
 
     
+
+def download_real_time_report(clipboard_data):
