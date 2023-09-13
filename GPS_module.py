@@ -1018,3 +1018,4 @@ def route_geofence_validation(clipboard_data):
 def download_real_time_report(clipboard_data):
     import pyautogui
     import time
+    import pandas as pd
