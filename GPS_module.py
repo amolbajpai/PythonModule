@@ -1020,3 +1020,4 @@ def download_real_time_report(clipboard_data):
     import time
     import pandas as pd
     pyautogui.FAILSAFE
+    time.sleep(1)
