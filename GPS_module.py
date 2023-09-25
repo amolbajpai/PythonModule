@@ -1022,3 +1022,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.FAILSAFE
     time.sleep(1)
     #pyautogui.hotkey('ctrl','t')
+    #detect Real Time Drop Down 
