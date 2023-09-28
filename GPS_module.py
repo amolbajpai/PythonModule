@@ -1024,3 +1024,4 @@ def download_real_time_report(clipboard_data):
     #pyautogui.hotkey('ctrl','t')
     #detect Real Time Drop Down 
     while pyautogui.locateCenterOnScreen('RealTimeReportDropDown.png',confidence=0.8) is None:
+            pass
