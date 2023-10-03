@@ -1027,3 +1027,4 @@ def download_real_time_report(clipboard_data):
             pass
     pyautogui.moveTo(pyautogui.locateCenterOnScreen('RealTimeReportDropDown.png',confidence=0.8),duration=0)
     pyautogui.click()
+    time.sleep(0.25)
