@@ -1029,3 +1029,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.click()
     time.sleep(0.25)
     while pyautogui.locateCenterOnScreen('option_list.png',confidence=0.8) is None:
+            pass
