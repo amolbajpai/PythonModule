@@ -1032,3 +1032,4 @@ def download_real_time_report(clipboard_data):
             pass
     
     pyautogui.click()
+    time.sleep(0.25)
