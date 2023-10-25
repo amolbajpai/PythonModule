@@ -1036,3 +1036,4 @@ def download_real_time_report(clipboard_data):
 
     pyautogui.typewrite(['tab'])
     time.sleep(0.25)
+    
