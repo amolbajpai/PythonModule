@@ -1039,3 +1039,4 @@ def download_real_time_report(clipboard_data):
     
     pyautogui.typewrite(clipboard_data.loc[0,'Departure Date'])
     for i in range(4):
+        pyautogui.typewrite(['tab'])
