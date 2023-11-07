@@ -1044,3 +1044,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.typewrite(clipboard_data.loc[0,'Stand for Unloading Date'])
     for i in range(2):
         pyautogui.typewrite(['tab'])
+        time.sleep(0.05)
