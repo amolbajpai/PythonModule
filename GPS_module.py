@@ -1045,3 +1045,5 @@ def download_real_time_report(clipboard_data):
     for i in range(2):
         pyautogui.typewrite(['tab'])
         time.sleep(0.05)
+
+    while pyautogui.locateCenterOnScreen('Download_button.png',confidence=0.8) is None:
