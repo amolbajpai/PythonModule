@@ -1047,3 +1047,4 @@ def download_real_time_report(clipboard_data):
         time.sleep(0.05)
 
     while pyautogui.locateCenterOnScreen('Download_button.png',confidence=0.8) is None:
+            pass
