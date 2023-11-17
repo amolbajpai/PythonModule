@@ -1050,3 +1050,4 @@ def download_real_time_report(clipboard_data):
             pass
     pyautogui.moveTo(pyautogui.locateCenterOnScreen('Download_button.png',confidence=0.8),duration=0)
     pyautogui.moveRel(xOffset=0,yOffset=-30)
+    
