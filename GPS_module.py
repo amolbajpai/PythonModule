@@ -1052,3 +1052,5 @@ def download_real_time_report(clipboard_data):
     pyautogui.moveRel(xOffset=0,yOffset=-30)
     
     pyautogui.click()
+
+    #pyautogui.typewrite(['enter'])
