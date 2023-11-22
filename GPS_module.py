@@ -1054,3 +1054,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.click()
 
     #pyautogui.typewrite(['enter'])
+    #time.sleep(0.5)
