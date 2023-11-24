@@ -1055,3 +1055,4 @@ def download_real_time_report(clipboard_data):
 
     #pyautogui.typewrite(['enter'])
     #time.sleep(0.5)
+    while pyautogui.locateCenterOnScreen('filter_label.png',confidence=0.8) is None:
