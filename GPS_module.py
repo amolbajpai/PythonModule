@@ -1057,3 +1057,4 @@ def download_real_time_report(clipboard_data):
     #time.sleep(0.5)
     while pyautogui.locateCenterOnScreen('filter_label.png',confidence=0.8) is None:
             pass
+    pyautogui.moveTo(pyautogui.locateCenterOnScreen('filter_label.png',confidence=0.8),duration=0)
