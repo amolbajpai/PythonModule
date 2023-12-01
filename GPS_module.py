@@ -1060,3 +1060,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.moveTo(pyautogui.locateCenterOnScreen('filter_label.png',confidence=0.8),duration=0)
     
     pyautogui.moveRel(xOffset=30,yOffset=0)
+    pyautogui.doubleClick()
