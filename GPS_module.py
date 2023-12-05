@@ -1062,3 +1062,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.moveRel(xOffset=30,yOffset=0)
     pyautogui.doubleClick()
     pyautogui.typewrite(['del'])
+    
