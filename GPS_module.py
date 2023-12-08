@@ -1063,3 +1063,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.doubleClick()
     pyautogui.typewrite(['del'])
     
+    pyautogui.typewrite(clipboard_data.loc[0,'Vehicle No'])
