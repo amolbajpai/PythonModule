@@ -1066,3 +1066,5 @@ def download_real_time_report(clipboard_data):
     pyautogui.typewrite(clipboard_data.loc[0,'Vehicle No'])
     pyautogui.moveRel(xOffset=0,yOffset=30)
     pyautogui.click()
+
+    while pyautogui.locateCenterOnScreen('Download_button.png',confidence=0.8) is None:
