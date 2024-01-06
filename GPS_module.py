@@ -1077,3 +1077,4 @@ def download_real_time_report(clipboard_data):
             pass
     pyautogui.moveTo(pyautogui.locateCenterOnScreen('Detect_real_time_report_downloaded.png',confidence=0.99),duration=0)
     time.sleep(1.2)
+    pyautogui.hotkey('alt','f4')
