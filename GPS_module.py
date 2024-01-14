@@ -1080,3 +1080,4 @@ def download_real_time_report(clipboard_data):
     pyautogui.hotkey('alt','f4')
 
 def add_vehicles_gui():
+    import pandas as pd
