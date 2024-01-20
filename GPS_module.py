@@ -1084,3 +1084,4 @@ def add_vehicles_gui():
     import pyautogui
     import time
     import os
+    png_path = '/home/amol/anaconda3/lib/python3.8/site-packages/ayansh/png_for_pyautogui/add_vehicle_gui'
