@@ -1086,3 +1086,4 @@ def add_vehicles_gui():
     import os
     png_path = '/home/amol/anaconda3/lib/python3.8/site-packages/ayansh/png_for_pyautogui/add_vehicle_gui'
     os.chdir(png_path)
+    #pyautogui.failSafeCheck()
