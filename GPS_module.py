@@ -1087,3 +1087,5 @@ def add_vehicles_gui():
     png_path = '/home/amol/anaconda3/lib/python3.8/site-packages/ayansh/png_for_pyautogui/add_vehicle_gui'
     os.chdir(png_path)
     #pyautogui.failSafeCheck()
+
+    while pyautogui.locateCenterOnScreen('vehicle_select_open.png',confidence=0.7) is None:
