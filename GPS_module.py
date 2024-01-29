@@ -1089,3 +1089,4 @@ def add_vehicles_gui():
     #pyautogui.failSafeCheck()
 
     while pyautogui.locateCenterOnScreen('vehicle_select_open.png',confidence=0.7) is None:
+        pass
