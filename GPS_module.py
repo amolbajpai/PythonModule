@@ -1091,3 +1091,4 @@ def add_vehicles_gui():
     while pyautogui.locateCenterOnScreen('vehicle_select_open.png',confidence=0.7) is None:
         pass
     #pyautogui.alert('Start ?')
+    #time.sleep(3)
