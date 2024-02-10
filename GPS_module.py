@@ -1092,3 +1092,6 @@ def add_vehicles_gui():
         pass
     #pyautogui.alert('Start ?')
     #time.sleep(3)
+
+
+    #vehicle_select_open.png
