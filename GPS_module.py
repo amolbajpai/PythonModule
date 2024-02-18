@@ -1095,3 +1095,6 @@ def add_vehicles_gui():
 
 
     #vehicle_select_open.png
+
+
+    list_of_vehicles=pd.read_clipboard(header=None)
