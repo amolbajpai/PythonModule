@@ -1098,3 +1098,4 @@ def add_vehicles_gui():
 
 
     list_of_vehicles=pd.read_clipboard(header=None)
+    list_of_vehicles=list(list_of_vehicles.iloc[:,0])
