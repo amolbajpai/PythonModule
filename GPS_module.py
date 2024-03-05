@@ -1104,3 +1104,4 @@ def add_vehicles_gui():
     for i in list_of_vehicles:
         while True:
             try:
+                
