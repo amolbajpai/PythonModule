@@ -1106,3 +1106,4 @@ def add_vehicles_gui():
             try:
                 
                 while pyautogui.locateCenterOnScreen('enterkeyword.png',confidence=0.8) is None:
+                        pass
