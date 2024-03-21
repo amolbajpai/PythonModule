@@ -1113,3 +1113,4 @@ def add_vehicles_gui():
             except:
                 continue
         pyautogui.click()
+        pyautogui.typewrite(i)
