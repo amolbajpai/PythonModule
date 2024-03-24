@@ -1116,3 +1116,4 @@ def add_vehicles_gui():
         pyautogui.typewrite(i)
         time.sleep(0.5)
         while True:
+            try:
