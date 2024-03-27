@@ -1118,3 +1118,4 @@ def add_vehicles_gui():
         while True:
             try:
                 while pyautogui.locateCenterOnScreen('chkbutton.png',confidence=0.9) is None:
+                        pass
