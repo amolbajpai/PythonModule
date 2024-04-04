@@ -1122,3 +1122,4 @@ def add_vehicles_gui():
                 pyautogui.moveTo(pyautogui.locateCenterOnScreen('chkbutton.png',confidence=0.9),duration=0)
                 
                 
+                break
