@@ -1123,3 +1123,4 @@ def add_vehicles_gui():
                 
                 
                 break
+            except:
