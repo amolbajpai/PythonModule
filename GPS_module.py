@@ -1128,3 +1128,4 @@ def add_vehicles_gui():
         pyautogui.click()
 
         while True:
+            try:
