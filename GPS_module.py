@@ -1129,3 +1129,4 @@ def add_vehicles_gui():
 
         while True:
             try:
+                while pyautogui.locateCenterOnScreen('filter.png',confidence=0.8) is None:
