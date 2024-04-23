@@ -1131,3 +1131,4 @@ def add_vehicles_gui():
             try:
                 while pyautogui.locateCenterOnScreen('filter.png',confidence=0.8) is None:
                         pass
+                pyautogui.moveTo(pyautogui.locateCenterOnScreen('filter.png',confidence=0.8),duration=0)
