@@ -1134,3 +1134,4 @@ def add_vehicles_gui():
                 pyautogui.moveTo(pyautogui.locateCenterOnScreen('filter.png',confidence=0.8),duration=0)
                 
                 break
+            except:
