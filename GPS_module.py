@@ -1136,3 +1136,4 @@ def add_vehicles_gui():
                 break
             except:
                 continue
+        pyautogui.moveRel(50,0,duration=0)
