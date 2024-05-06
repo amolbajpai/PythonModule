@@ -1137,3 +1137,4 @@ def add_vehicles_gui():
             except:
                 continue
         pyautogui.moveRel(50,0,duration=0)
+        pyautogui.doubleClick()
