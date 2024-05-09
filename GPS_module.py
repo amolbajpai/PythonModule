@@ -1138,3 +1138,4 @@ def add_vehicles_gui():
                 continue
         pyautogui.moveRel(50,0,duration=0)
         pyautogui.doubleClick()
+        pyautogui.typewrite(['del'])
