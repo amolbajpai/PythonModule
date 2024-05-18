@@ -1139,3 +1139,7 @@ def add_vehicles_gui():
         pyautogui.moveRel(50,0,duration=0)
         pyautogui.doubleClick()
         pyautogui.typewrite(['del'])
+
+
+
+def list_of_vsr_files_in_reverse_order():
