@@ -1147,3 +1147,4 @@ def list_of_vsr_files_in_reverse_order():
     vsrfiles=gps.getListOfFiles(vsr_path)
     temp_list=[]
     for i in vsrfiles:
+        if not 'Evening' in i:
