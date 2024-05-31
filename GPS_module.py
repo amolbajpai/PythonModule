@@ -1148,3 +1148,4 @@ def list_of_vsr_files_in_reverse_order():
     temp_list=[]
     for i in vsrfiles:
         if not 'Evening' in i:
+            temp_list.append(i)
