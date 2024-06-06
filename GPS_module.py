@@ -1152,3 +1152,4 @@ def list_of_vsr_files_in_reverse_order():
 
     vsrfiles = temp_list[:]
     vsrfiles.sort(reverse=True)
+    return vsrfiles
