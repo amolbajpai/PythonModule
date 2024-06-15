@@ -1157,3 +1157,4 @@ def list_of_vsr_files_in_reverse_order():
 def list_of_vsr_files():
     import ayansh as gps
     vsrfiles=gps.getListOfFiles(vsr_path)
+    temp_list=[]
