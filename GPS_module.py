@@ -1160,3 +1160,4 @@ def list_of_vsr_files():
     temp_list=[]
     for i in vsrfiles:
         if not 'Evening' in i:
+            temp_list.append(i)
