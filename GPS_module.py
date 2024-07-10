@@ -1170,3 +1170,4 @@ def list_of_vs_files():
     import ayansh as gps
     vsrfiles=gps.getListOfFiles(vs_path)
     temp_list=[]
+    for i in vsrfiles:
