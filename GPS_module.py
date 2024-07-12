@@ -1171,3 +1171,4 @@ def list_of_vs_files():
     vsrfiles=gps.getListOfFiles(vs_path)
     temp_list=[]
     for i in vsrfiles:
+        if not 'Evening' in i:
