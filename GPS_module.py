@@ -1173,3 +1173,5 @@ def list_of_vs_files():
     for i in vsrfiles:
         if not 'Evening' in i:
             temp_list.append(i)
+
+    vsrfiles = temp_list[:]
