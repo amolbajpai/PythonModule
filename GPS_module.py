@@ -1175,3 +1175,4 @@ def list_of_vs_files():
             temp_list.append(i)
 
     vsrfiles = temp_list[:]
+    vsrfiles.sort(reverse=False)
