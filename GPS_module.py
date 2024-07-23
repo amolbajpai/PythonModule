@@ -1177,3 +1177,5 @@ def list_of_vs_files():
     vsrfiles = temp_list[:]
     vsrfiles.sort(reverse=False)
     return vsrfiles
+
+def get_date_from_vsr_file_name(i):
