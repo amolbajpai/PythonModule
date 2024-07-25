@@ -1179,3 +1179,4 @@ def list_of_vs_files():
     return vsrfiles
 
 def get_date_from_vsr_file_name(i):
+    year = i[61:-11]
