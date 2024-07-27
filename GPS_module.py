@@ -1180,3 +1180,4 @@ def list_of_vs_files():
 
 def get_date_from_vsr_file_name(i):
     year = i[61:-11]
+    month = i[66:-8]
