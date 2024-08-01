@@ -1182,3 +1182,4 @@ def get_date_from_vsr_file_name(i):
     year = i[61:-11]
     month = i[66:-8]
     day = i[69:-5]
+    return day+'/'+month+'/'+year
