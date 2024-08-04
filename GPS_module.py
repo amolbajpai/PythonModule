@@ -1183,3 +1183,5 @@ def get_date_from_vsr_file_name(i):
     month = i[66:-8]
     day = i[69:-5]
     return day+'/'+month+'/'+year
+
+def get_date_in_yyyy_mm_dd(i):
