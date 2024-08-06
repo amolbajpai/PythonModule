@@ -1186,3 +1186,4 @@ def get_date_from_vsr_file_name(i):
 
 def get_date_in_yyyy_mm_dd(i):
     year = i[6:]
+    month = i[3:5]
