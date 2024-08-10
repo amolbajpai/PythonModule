@@ -1188,3 +1188,4 @@ def get_date_in_yyyy_mm_dd(i):
     year = i[6:]
     month = i[3:5]
     day = i[:2]
+    return year+'/'+month+'/'+day
