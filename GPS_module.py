@@ -1193,3 +1193,5 @@ def get_date_in_yyyy_mm_dd(i):
 def vhiof():
     import ayansh as gps
     import pandas as pd
+
+    updated_current_status_report = gps.find_latest_current_status_report()
