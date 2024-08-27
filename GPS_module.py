@@ -1195,3 +1195,5 @@ def vhiof():
     import pandas as pd
 
     updated_current_status_report = gps.find_latest_current_status_report()
+
+    df=pd.read_excel('/home/amol/Documents/Temp/Vehicle hold in other fleet.xlsx')
