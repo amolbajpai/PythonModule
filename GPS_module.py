@@ -1198,3 +1198,5 @@ def vhiof():
 
     df=pd.read_excel('/home/amol/Documents/Temp/Vehicle hold in other fleet.xlsx')
     df=df[['Vehicle control Location','Vehicle No','Location']]
+
+    csr=pd.read_excel(updated_current_status_report,sheet_name="Current Status Report")
