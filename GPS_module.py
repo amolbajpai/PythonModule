@@ -1200,3 +1200,4 @@ def vhiof():
     df=df[['Vehicle control Location','Vehicle No','Location']]
 
     csr=pd.read_excel(updated_current_status_report,sheet_name="Current Status Report")
+    csr=csr[['Vehicle','Date/Time']]
