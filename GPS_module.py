@@ -1201,3 +1201,6 @@ def vhiof():
 
     csr=pd.read_excel(updated_current_status_report,sheet_name="Current Status Report")
     csr=csr[['Vehicle','Date/Time']]
+
+
+    csr.rename(index=csr['Vehicle'],inplace=True)
