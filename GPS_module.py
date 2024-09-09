@@ -1204,3 +1204,4 @@ def vhiof():
 
 
     csr.rename(index=csr['Vehicle'],inplace=True)
+    csr.drop(columns="Vehicle",inplace=True)
