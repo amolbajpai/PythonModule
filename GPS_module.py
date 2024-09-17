@@ -1208,3 +1208,4 @@ def vhiof():
     csr['Date/Time']=csr['Date/Time'].astype('datetime64')
 
     max_GPS_time=csr["Date/Time"].max()
+    from datetime import timedelta
