@@ -1209,3 +1209,4 @@ def vhiof():
 
     max_GPS_time=csr["Date/Time"].max()
     from datetime import timedelta
+    GPS_working_time=  max_GPS_time - timedelta(minutes=20)
