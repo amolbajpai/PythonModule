@@ -1212,3 +1212,6 @@ def vhiof():
     GPS_working_time=  max_GPS_time - timedelta(minutes=20)
 
     print("Maximum GPS time is {} \nGPS working time    {}".format(max_GPS_time,GPS_working_time))
+
+
+    def GPS_status(x):
