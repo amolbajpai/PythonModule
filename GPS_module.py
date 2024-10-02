@@ -1215,3 +1215,4 @@ def vhiof():
 
 
     def GPS_status(x):
+        try:
