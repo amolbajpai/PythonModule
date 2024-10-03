@@ -1216,3 +1216,4 @@ def vhiof():
 
     def GPS_status(x):
         try:
+            gpstime=csr.loc[x][0]
