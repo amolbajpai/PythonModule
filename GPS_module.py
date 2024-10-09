@@ -1218,3 +1218,4 @@ def vhiof():
         try:
             gpstime=csr.loc[x][0]
             if gpstime >= GPS_working_time:
+                return "Working"
