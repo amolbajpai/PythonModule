@@ -1220,3 +1220,4 @@ def vhiof():
             if gpstime >= GPS_working_time:
                 return "Working"
             else:
+                return "Not Working"
