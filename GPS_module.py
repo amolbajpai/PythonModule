@@ -1223,3 +1223,7 @@ def vhiof():
                 return "Not Working"
         except:
             return "Not Working"
+
+
+
+    df["GPS Status"]=df['Vehicle No'].map(GPS_status)
