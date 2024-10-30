@@ -1228,3 +1228,4 @@ def vhiof():
 
     df["GPS Status"]=df['Vehicle No'].map(GPS_status)
     df["Phone No."]=""
+    ###Adding Phone Number
