@@ -1229,3 +1229,5 @@ def vhiof():
     df["GPS Status"]=df['Vehicle No'].map(GPS_status)
     df["Phone No."]=""
     ###Adding Phone Number
+
+    driver_moblie_number = pd.read_excel('/home/amol/Documents/Excel Files/Driver_Mobile_Number.xlsx')
